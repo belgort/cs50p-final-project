@@ -1,0 +1,3676 @@
+1
+00:00:00,120 --> 00:00:05,190
+Now that Gerry is here telling us on Jerry Jones, we hit the record button.
+
+2
+00:00:05,190 --> 00:00:10,500
+So I wanted to do. Yeah, I just wanted to share something totally unrelated to code, right?
+
+3
+00:00:10,500 --> 00:00:13,950
+But you know, you're all sitting on on on Zoom, right?
+
+4
+00:00:13,950 --> 00:00:25,320
+And I'm sitting here and you see, you know, me coding, talking, whatever it may be, but I wanted to share with you how blown up my screen is.
+
+5
+00:00:25,320 --> 00:00:32,670
+Can you see that? Yeah, so that's that's me teaching to you.
+
+6
+00:00:32,670 --> 00:00:38,340
+But right when you when you see it from your end, kind of here, let's get rid of it.
+
+7
+00:00:38,340 --> 00:00:43,200
+Come on this. That's what you see. All right.
+
+8
+00:00:43,200 --> 00:00:52,120
+So I just thought I'd share that because Zoom, right, does a really good job of allowing me to zoom in my screen, right?
+
+9
+00:00:52,120 --> 00:00:57,370
+And allow you to see, like I said, just the normal view.
+
+10
+00:00:57,370 --> 00:01:04,690
+So, yeah, and that's that's why you never want to allow me to drive a car, right?
+
+11
+00:01:04,690 --> 00:01:12,340
+Because I I'm like, I don't know. There used to be a kids cartoon called Mister Mr Magoo.
+
+12
+00:01:12,340 --> 00:01:19,100
+I don't know that it remembers that, but he he was a character that drove around and he couldn't see.
+
+13
+00:01:19,100 --> 00:01:25,930
+So thankfully, my wife read it. Yeah, I remember this and go, Yeah.
+
+14
+00:01:25,930 --> 00:01:32,350
+So yeah, thankfully, my wife and, you know, friends, you know, drive, drive me around.
+
+15
+00:01:32,350 --> 00:01:36,220
+All right. So let's get started. Let's get started. We're in.
+
+16
+00:01:36,220 --> 00:01:47,200
+We're nearing the end. This is the last module. This is like the last like full module on on something called classes, the finding classes,
+
+17
+00:01:47,200 --> 00:01:54,850
+which you've already done using the graphics library, but you didn't know much about it other than, Hey, here's I want to.
+
+18
+00:01:54,850 --> 00:01:59,680
+I want a graphics window. I want to circle. I want all all these things.
+
+19
+00:01:59,680 --> 00:02:05,410
+But how can we like develop those types of things on our on our own right?
+
+20
+00:02:05,410 --> 00:02:09,910
+So that's what this module is all about. This is the last problem set.
+
+21
+00:02:09,910 --> 00:02:14,380
+This is the last learning guide. Clear. This is the last written quiz.
+
+22
+00:02:14,380 --> 00:02:20,200
+And next Monday. I don't think we'll have class because it's Thanksgiving week.
+
+23
+00:02:20,200 --> 00:02:30,880
+There won't be any need on. Some of you wanted to take the Microsoft Python certification.
+
+24
+00:02:30,880 --> 00:02:40,840
+So there is a schedule and canvas under the Microsoft MTA section, and there's a couple of things in there that's wanted to share with you.
+
+25
+00:02:40,840 --> 00:02:50,170
+OK? Number one is you need to schedule your exam time with me, either from Monday, December six or Friday, December 10th.
+
+26
+00:02:50,170 --> 00:03:02,710
+And some of you have done that already, and I appreciate that. I recommend that you take the exam on Monday this way if you don't pass it.
+
+27
+00:03:02,710 --> 00:03:08,320
+And I've failed quite a few of these in my time, a fewer.
+
+28
+00:03:08,320 --> 00:03:12,610
+So you'll be able to retake it on Friday if you don't pass it.
+
+29
+00:03:12,610 --> 00:03:17,650
+All right. Just say it. So we give you two opportunities to take it.
+
+30
+00:03:17,650 --> 00:03:23,530
+So here is the information right here. You all should have access to it.
+
+31
+00:03:23,530 --> 00:03:29,920
+I want you to schedule your your exam with me and bye bye.
+
+32
+00:03:29,920 --> 00:03:36,220
+If you have an inkling to take any of these other Microsoft certification exams,
+
+33
+00:03:36,220 --> 00:03:41,590
+there is one on C-sharp and I know we have a c sharp programmer in the class here.
+
+34
+00:03:41,590 --> 00:03:49,900
+So just note that not only can you take Python, but you can schedule all these others to and I'd be happy to provide them to you.
+
+35
+00:03:49,900 --> 00:03:56,830
+Practice them for you in person a class on either Monday, December six or Friday, December 10.
+
+36
+00:03:56,830 --> 00:04:00,370
+No cost to you. Just just know that these are free.
+
+37
+00:04:00,370 --> 00:04:07,930
+There is no cost to you. So what you need to do is you need to like, like email me and say, Hey Bruce,
+
+38
+00:04:07,930 --> 00:04:16,990
+I want to schedule h html on Monday night and I want to schedule a python at one o'clock, you know, just just like that.
+
+39
+00:04:16,990 --> 00:04:22,630
+All right, here's the instructions. It's all right here, right?
+
+40
+00:04:22,630 --> 00:04:31,480
+And the next thing you want to do is I've some of you may have used this before, but we have access to practice tests.
+
+41
+00:04:31,480 --> 00:04:35,530
+It's called G Metrics. They're the name of the company that makes it.
+
+42
+00:04:35,530 --> 00:04:39,130
+So if you go through all these steps here, right,
+
+43
+00:04:39,130 --> 00:04:50,500
+and you enter this magical code right here and select the Microsoft and then Python or whatever exam you want to study for,
+
+44
+00:04:50,500 --> 00:05:00,190
+you'll be able to get to practice exams so you can do these practice exams and in practice mode where you get to see the answer after each question.
+
+45
+00:05:00,190 --> 00:05:08,440
+Or you can go in a full on simulation mode where it's timed right and and stuff like that, right?
+
+46
+00:05:08,440 --> 00:05:15,940
+So again, I provide you with the resources. Usually everyone who takes us passes it.
+
+47
+00:05:15,940 --> 00:05:22,840
+Is it 100 percent of the material that I taught? You know, is it 90 percent?
+
+48
+00:05:22,840 --> 00:05:30,820
+Yeah. Is the other 10 percent of the knowledge that you would need to know in some of these key metrics practice exams?
+
+49
+00:05:30,820 --> 00:05:34,780
+Heck, yeah. All right. So that's why everyone usually passed it.
+
+50
+00:05:34,780 --> 00:05:40,840
+And just so, you know, write these things, and I think you all know the story, right?
+
+51
+00:05:40,840 --> 00:05:47,050
+If you go into. Go back to like the beginning of time here with module zero.
+
+52
+00:05:47,050 --> 00:05:51,090
+I think I had like information about me and I've taken.
+
+53
+00:05:51,090 --> 00:06:00,720
+All these various Microsoft certifications over time since I started it, Clark, I mean, I should know all this stuff because I teach a lot of it,
+
+54
+00:06:00,720 --> 00:06:08,580
+but the ones that I did fail are ones that I don't have much experience with, which is like the Java programing language.
+
+55
+00:06:08,580 --> 00:06:17,370
+That's the one I that kicked my butt a lot. So I had to learn Java, you know, over two months, and I finally, I finally passed it.
+
+56
+00:06:17,370 --> 00:06:26,070
+And when you have these things, they also go on your LinkedIn and you know, and you can put them on your portfolio or wherever it may be.
+
+57
+00:06:26,070 --> 00:06:38,040
+And I've said this before, every day I'll get a job request through LinkedIn for especially Python because it's such an in-demand language right now.
+
+58
+00:06:38,040 --> 00:06:46,140
+And the other thing too, is LinkedIn has a little certification exam that you can take to prove your skills.
+
+59
+00:06:46,140 --> 00:06:56,400
+And it was hard. Yeah, I wouldn't go take it right away because you can only take it twice within a six months time and after that, you have to wait.
+
+60
+00:06:56,400 --> 00:07:01,200
+All right. So that's it on certifications, you know, are they required?
+
+61
+00:07:01,200 --> 00:07:06,570
+No. Are they helpful? Yes. Are they good to have?
+
+62
+00:07:06,570 --> 00:07:12,240
+Yeah. All right. Any questions before we get started?
+
+63
+00:07:12,240 --> 00:07:23,250
+Any, any thing, anyone have any questions that I can answer.
+
+64
+00:07:23,250 --> 00:07:32,550
+Nothing in the chat. All right. And for those of you who did send me the code words for the announcement that
+
+65
+00:07:32,550 --> 00:07:38,100
+came out yesterday about watching that video or those videos before class?
+
+66
+00:07:38,100 --> 00:07:43,530
+Thanks. Thanks for doing that. I think I got for people who replied back, So cool.
+
+67
+00:07:43,530 --> 00:07:50,430
+And let's get started. If there's no questions, so let's get started and you can all see my screen right?
+
+68
+00:07:50,430 --> 00:07:55,020
+Just checking, right? Yeah, you can see it. All right. Thanks, Brandon.
+
+69
+00:07:55,020 --> 00:08:01,830
+So let's start off. Let's start off. Let me just call it the demo.
+
+70
+00:08:01,830 --> 00:08:08,260
+Demo Dash one dot pi. OK, just like that. And let's.
+
+71
+00:08:08,260 --> 00:08:16,180
+Pretend, well, let's pretend this is kind of those of you who watch the video, this is kind of what we're going to do.
+
+72
+00:08:16,180 --> 00:08:31,570
+Let's pretend I keep saying it. Let's create some code where we can model a physical dye, a dye that you use for playing board games,
+
+73
+00:08:31,570 --> 00:08:38,450
+whether it's a six sided dye or a hundreds thousands sided dye or a, you know, a 20 sided dye.
+
+74
+00:08:38,450 --> 00:08:42,820
+I don't know what the gamers. I know my son.
+
+75
+00:08:42,820 --> 00:08:47,890
+My son has this big dye with all. I don't know what game it is. Maybe you can tell me,
+
+76
+00:08:47,890 --> 00:09:02,140
+but let's say we wanted to create a template where we could create a dye and then maybe we can create 10000 dye and we could roll them.
+
+77
+00:09:02,140 --> 00:09:05,980
+We could do anything we wanted to do with the dye.
+
+78
+00:09:05,980 --> 00:09:10,330
+Typically, it's you roll the dye, and that's kind of about it, right?
+
+79
+00:09:10,330 --> 00:09:17,930
+So how would we go about creating a piece of software?
+
+80
+00:09:17,930 --> 00:09:27,290
+Something called a class, a class or a template to model a multi-sided DI.
+
+81
+00:09:27,290 --> 00:09:32,630
+OK, so let's do it. We're going to learn a new keyword in Python.
+
+82
+00:09:32,630 --> 00:09:39,200
+And the key word is class. Class Class C L a ss all lowercase.
+
+83
+00:09:39,200 --> 00:09:45,380
+And now you're going. Do you remember with the graphics library when you had like circle, it was uppercase, right?
+
+84
+00:09:45,380 --> 00:09:51,080
+When you had graph, when it was uppercase, right when you had rectangle or polygon?
+
+85
+00:09:51,080 --> 00:10:00,620
+Right. They all started with a capital letter. And that's when you define a class A template you or a blueprint.
+
+86
+00:10:00,620 --> 00:10:07,760
+Right? You use a capital letter. So let's create a a class name called DI.
+
+87
+00:10:07,760 --> 00:10:11,390
+No parentheses. None of that. And just a colon.
+
+88
+00:10:11,390 --> 00:10:15,460
+Just like that. OK. Just like that.
+
+89
+00:10:15,460 --> 00:10:25,400
+So we're going to create a template, a cookie cutter that we're going to use to to fabricate die.
+
+90
+00:10:25,400 --> 00:10:30,470
+This right in software in Python. OK, so here we go.
+
+91
+00:10:30,470 --> 00:10:36,300
+I hit enter and it's like, it's like, All right.
+
+92
+00:10:36,300 --> 00:10:40,080
+What goes inside of here, what goes inside of our class?
+
+93
+00:10:40,080 --> 00:10:43,770
+Well, a whole bunch of things, right? A whole bunch of things.
+
+94
+00:10:43,770 --> 00:10:50,400
+But when you created a graphics window, when you created a circle and you created a rectangle, a polygon.
+
+95
+00:10:50,400 --> 00:10:54,930
+Any of these things? As soon as you created them?
+
+96
+00:10:54,930 --> 00:10:58,510
+Right. Those are what we call.
+
+97
+00:10:58,510 --> 00:11:02,760
+We instantiated them, right? We we we fabricated that right.
+
+98
+00:11:02,760 --> 00:11:06,600
+So with a dye right with a dye?
+
+99
+00:11:06,600 --> 00:11:16,530
+Does anyone want to tell me when we say, go to make a dye, make believe we have a factory in Vancouver here and we may die, right?
+
+100
+00:11:16,530 --> 00:11:21,090
+So what are some properties of a dye?
+
+101
+00:11:21,090 --> 00:11:24,570
+Anyone want to just belt some out to me?
+
+102
+00:11:24,570 --> 00:11:29,070
+What are some things that when I look at it, dye, right?
+
+103
+00:11:29,070 --> 00:11:34,200
+What can you describe some of its properties, right? I have brown hair looks gray, right?
+
+104
+00:11:34,200 --> 00:11:38,470
+I'm five foot nine hundred ninety five pounds.
+
+105
+00:11:38,470 --> 00:11:44,160
+Those are some properties right about Bruce, right? So what are some properties of a dye?
+
+106
+00:11:44,160 --> 00:11:49,960
+Anybody. How many sides? It has number of sides, Common says.
+
+107
+00:11:49,960 --> 00:11:55,030
+I'll I'll take that. So let me just do this.
+
+108
+00:11:55,030 --> 00:12:06,750
+Uh, properties properties. OK, so the first thing is, no, actually, I'm not going to use my triple two three doing.
+
+109
+00:12:06,750 --> 00:12:13,590
+Oops. Number of side. I have a plug in that extension that I need to turn off.
+
+110
+00:12:13,590 --> 00:12:22,220
+Please hold. Please hold. I just turn this on doc.
+
+111
+00:12:22,220 --> 00:12:30,590
+Pi. Can anyone see Python? Doc stream, yeah, I want to turn this off, although I could disable.
+
+112
+00:12:30,590 --> 00:12:36,530
+Sorry about that reload. OK, so here we go.
+
+113
+00:12:36,530 --> 00:12:43,520
+Number of signs. Properties, OK, what else, what else?
+
+114
+00:12:43,520 --> 00:12:45,410
+Collins, right? Number of sites.
+
+115
+00:12:45,410 --> 00:12:54,920
+Let's say you go to Fred Meyer and you buy or you go to the bat cave and you buy some dye and they're in a package, right?
+
+116
+00:12:54,920 --> 00:12:59,630
+What do you see? What do you see when you look at that, that set of dye?
+
+117
+00:12:59,630 --> 00:13:06,450
+What do you see anybody the same shape? OK, well, we'll leave that for now.
+
+118
+00:13:06,450 --> 00:13:11,030
+OK, shape, Jojo says. What else? OK, what about the bears?
+
+119
+00:13:11,030 --> 00:13:14,600
+Usually? OK, so they're packaged in pairs.
+
+120
+00:13:14,600 --> 00:13:21,590
+But tell me about one day, Joshua. Tell me about one guy. Tell me about one guy when you look at it, right?
+
+121
+00:13:21,590 --> 00:13:25,130
+If you know, how about six sizes depending on the deal you're looking at?
+
+122
+00:13:25,130 --> 00:13:29,420
+Yes, that's right. So that's what Colin said. Number of sides.
+
+123
+00:13:29,420 --> 00:13:34,280
+Let's say you look at the shelf and you see a package of dye, right?
+
+124
+00:13:34,280 --> 00:13:40,400
+When you look at that package of dye, right, you'll notice that they have a certain number of sides.
+
+125
+00:13:40,400 --> 00:13:46,340
+But what else do you see? What else do you see? No, that numbers right.
+
+126
+00:13:46,340 --> 00:13:57,530
+So but those numbers, Gerri correspond to the site or when you look, does each dye, especially when, like when you roll a dye,
+
+127
+00:13:57,530 --> 00:14:03,160
+how many values kind of dye have like during a game, like when you roll the dice,
+
+128
+00:14:03,160 --> 00:14:12,260
+do you look at the side of the dye or do you look at the side facing up?
+
+129
+00:14:12,260 --> 00:14:18,760
+Side face it, when you the side facing off and facing up is labeled a no.
+
+130
+00:14:18,760 --> 00:14:22,880
+So what would you call that? What would you call that that that?
+
+131
+00:14:22,880 --> 00:14:29,330
+Would it be the the the value? What do you call like when I rolled of five, right?
+
+132
+00:14:29,330 --> 00:14:38,040
+If I roll of five, what do you call that? Five? Can we call it value is a technical term for it?
+
+133
+00:14:38,040 --> 00:14:41,340
+We could call it a value because that's that's what you get. All right.
+
+134
+00:14:41,340 --> 00:14:48,150
+So we'll call it a value. I'm going to just not use the shape pronounce just because I'll take it a little while.
+
+135
+00:14:48,150 --> 00:15:01,440
+But is it fair to say that the dye that we need to fabricate has a certain number of sides and it's going to have a value, right?
+
+136
+00:15:01,440 --> 00:15:06,600
+Whether it's what the value is in the package, when Jerry is looking at it on the shelf,
+
+137
+00:15:06,600 --> 00:15:12,750
+or it's when Ben is using it to play a game with with his friends, right?
+
+138
+00:15:12,750 --> 00:15:18,450
+We could also add in here color. Right? The dye has a certain color, right?
+
+139
+00:15:18,450 --> 00:15:27,690
+Maybe. I don't know. I don't think that's necessary right now. Let's just stick with we make dye that have a certain number of sides.
+
+140
+00:15:27,690 --> 00:15:31,410
+And when we either package them in, you know,
+
+141
+00:15:31,410 --> 00:15:42,360
+a box or whatever that there is either a value showing on the dye or when Ben uses them in his game, they they have a value.
+
+142
+00:15:42,360 --> 00:15:44,820
+So those two things are the same.
+
+143
+00:15:44,820 --> 00:15:56,010
+So how do we create in the software a dye that has, I don't know, six sides will go with four now and has a default value.
+
+144
+00:15:56,010 --> 00:16:02,400
+Let's just say we have that single dot when we package our dye in our factory in Vancouver,
+
+145
+00:16:02,400 --> 00:16:10,470
+all the dye are placed in the packaging the same way, with the number one showing by default.
+
+146
+00:16:10,470 --> 00:16:17,310
+OK. Let's just go with with that for now. So again, how do we construct this dye in software?
+
+147
+00:16:17,310 --> 00:16:21,420
+Well, there is something we need to do.
+
+148
+00:16:21,420 --> 00:16:27,000
+And you remember from last week when we created these functions,
+
+149
+00:16:27,000 --> 00:16:34,500
+we are going to create a special type of function called a constructor constructor function,
+
+150
+00:16:34,500 --> 00:16:42,120
+which gets run ran when we create a new dye in our software.
+
+151
+00:16:42,120 --> 00:16:50,550
+OK. So what we do is we create a special name called Double actually what this is called.
+
+152
+00:16:50,550 --> 00:16:54,540
+Let me just do this right here. And then just like that.
+
+153
+00:16:54,540 --> 00:17:05,250
+Now this is weird, OK? This is really weird. It's a reserve word in Python, and it it's two underscores the word init,
+
+154
+00:17:05,250 --> 00:17:14,760
+which stands for initialize and then two more underscores and then a set of parentheses I'll call in.
+
+155
+00:17:14,760 --> 00:17:25,200
+OK. And we usually say for these double underscore, as we'll say, Dunder Dundar, not Dunder Mifflin Dunder double underscore.
+
+156
+00:17:25,200 --> 00:17:35,640
+And what this says is when you create, when you construct, when you initialize a new dye, we need to do the following.
+
+157
+00:17:35,640 --> 00:17:40,230
+OK, so check it out. We put this word in here called self.
+
+158
+00:17:40,230 --> 00:17:50,730
+And remember, we're dealing with objects. They have the ability to to know things about them, and they can also do things.
+
+159
+00:17:50,730 --> 00:17:56,150
+So our dye, when we create it, it's going to say, Hey, self.
+
+160
+00:17:56,150 --> 00:18:03,000
+OK, what's your value? What what's your value and what's your number of sites?
+
+161
+00:18:03,000 --> 00:18:12,670
+So now we're going to say, Hey, self. What's your value and let's set all of our die to have a default value of one?
+
+162
+00:18:12,670 --> 00:18:21,190
+OK. Now again, I know some of this is highly, you know, just way out in left field right now, but just stick with me.
+
+163
+00:18:21,190 --> 00:18:31,900
+So by default, when we create a new die or a new object or a new template, right, which we're doing here or by a class may just fix us up here.
+
+164
+00:18:31,900 --> 00:18:37,570
+We say we create the class name, right?
+
+165
+00:18:37,570 --> 00:18:40,000
+I called it die uppercase.
+
+166
+00:18:40,000 --> 00:18:50,020
+We create our constructor function, constructor function and this get run as soon as we create a new die, which we haven't done yet.
+
+167
+00:18:50,020 --> 00:19:00,610
+We're just creating the template for what happens when we create a new die, just like we did with a new graph when a new circle, a new rectangle.
+
+168
+00:19:00,610 --> 00:19:05,950
+It had a constructor which said, Hey, when when you let me carry on.
+
+169
+00:19:05,950 --> 00:19:14,950
+So when we create the die, we're setting itself to have a value one and we're setting the number of sides to six.
+
+170
+00:19:14,950 --> 00:19:21,130
+We're going to stick with a six sided die. OK, so believe it or not, believe it or not,
+
+171
+00:19:21,130 --> 00:19:33,250
+what we've done here is we have created a template to make six sided die that have a default value of one.
+
+172
+00:19:33,250 --> 00:19:37,990
+OK, now. Just take that in for a second.
+
+173
+00:19:37,990 --> 00:19:43,630
+Okay, take that in, and it'll make a lot more sense as soon as I construct my first day.
+
+174
+00:19:43,630 --> 00:19:48,020
+Can I check it? Here we go.
+
+175
+00:19:48,020 --> 00:19:52,130
+Here we go. Let's just call it die one variable name.
+
+176
+00:19:52,130 --> 00:19:58,610
+Die one. Just like you did with Circle, you created Circle one, Circle two or i1 I two, right?
+
+177
+00:19:58,610 --> 00:20:03,770
+I just call them create a variable called die one. And I said, Hey, die one.
+
+178
+00:20:03,770 --> 00:20:11,720
+I want you to create a new die. Just like that. Just create a new die, just like we did with graph one and other things.
+
+179
+00:20:11,720 --> 00:20:15,530
+There is no parameters yet for our die.
+
+180
+00:20:15,530 --> 00:20:21,440
+We're just if you create a die, just like I did here, we're saying, Hey, hey, hey, class,
+
+181
+00:20:21,440 --> 00:20:32,060
+create a new die that has a default value of one and six sides and store it in this variable called die one by one.
+
+182
+00:20:32,060 --> 00:20:41,600
+Now everyone's like, All right, if I print out the type of die one, do you think it's going to be a a string?
+
+183
+00:20:41,600 --> 00:20:51,920
+Be an integer or c an object on a integer B string C object?
+
+184
+00:20:51,920 --> 00:20:56,030
+What do you think? Line 13 is going to print out.
+
+185
+00:20:56,030 --> 00:21:05,820
+Take a there's no wrong guesses here. Somebody take a guess. Object, I mean, string, an integer string or object.
+
+186
+00:21:05,820 --> 00:21:11,690
+I think in strength. So, Jojo, to your point.
+
+187
+00:21:11,690 --> 00:21:15,560
+We have won a default value of one.
+
+188
+00:21:15,560 --> 00:21:22,550
+That's that's that little snake eyes staring at us in on the dye and the dye has six sides.
+
+189
+00:21:22,550 --> 00:21:28,840
+So could we represent both these bits of information as a string?
+
+190
+00:21:28,840 --> 00:21:38,710
+Or is it like when we created a circle, the circle had a center point and the circle had a radius,
+
+191
+00:21:38,710 --> 00:21:45,550
+so which was an object, so integer string or object?
+
+192
+00:21:45,550 --> 00:21:57,130
+You're going to stick with your answer, Joshua, what do you want to change it? You want to buy a vowel?
+
+193
+00:21:57,130 --> 00:22:00,690
+Everybody I didn't think about. All right.
+
+194
+00:22:00,690 --> 00:22:09,240
+So when we created a circle was a circle, an integer, a string or an object.
+
+195
+00:22:09,240 --> 00:22:15,330
+And I just want to know it's an object, right? It's an object, so we're doing the same thing.
+
+196
+00:22:15,330 --> 00:22:22,020
+We've created our own object that we made right here, right?
+
+197
+00:22:22,020 --> 00:22:31,300
+And if I print out, it's tight. It says, in fact, that it is made.
+
+198
+00:22:31,300 --> 00:22:41,560
+Of a die, so this believe it or not, this is telling you that this variable die one is an object and in fact it is.
+
+199
+00:22:41,560 --> 00:22:45,370
+It is a die. It is a die, which is which is an object.
+
+200
+00:22:45,370 --> 00:22:48,790
+It's not a string. It's not an integer, right?
+
+201
+00:22:48,790 --> 00:22:52,720
+It's an object. Because Jojo, check it out.
+
+202
+00:22:52,720 --> 00:22:59,290
+I can then say print die one dot, just like we did with the graphics library.
+
+203
+00:22:59,290 --> 00:23:05,980
+And look what we get here size and value. So let's just do sides.
+
+204
+00:23:05,980 --> 00:23:12,010
+And now we're going to print out right sides. Sides is a prop.
+
+205
+00:23:12,010 --> 00:23:24,290
+Remember when we did like? I'm trying to remember an example where we just used a property like this, but let me just run it so you can see it.
+
+206
+00:23:24,290 --> 00:23:41,120
+And now it's telling me that that dye that we created has six signs that Dye one has six sides and that dye one has a value its current value looks.
+
+207
+00:23:41,120 --> 00:23:46,240
+I can't type today. Its value is going to be.
+
+208
+00:23:46,240 --> 00:23:56,320
+One. Okay, now we've created a model of a die in software, now we've created one die with it for our program to use.
+
+209
+00:23:56,320 --> 00:24:04,390
+But if we want to create a second, die a second, die here, I'm just going to copy this code, copy this code.
+
+210
+00:24:04,390 --> 00:24:14,550
+Put it here and change die one to die to.
+
+211
+00:24:14,550 --> 00:24:19,990
+Right, I mean, just put a print here. Die, too.
+
+212
+00:24:19,990 --> 00:24:29,680
+And I'll print. A. A print die one.
+
+213
+00:24:29,680 --> 00:24:36,610
+So you can see that we've created. Today.
+
+214
+00:24:36,610 --> 00:24:40,420
+Although one second, I think they did it. Here it is.
+
+215
+00:24:40,420 --> 00:24:48,100
+So we've created die one right here. Let me show me sorry, this is a little theaters die one.
+
+216
+00:24:48,100 --> 00:24:54,940
+It's made of a die. It has six sides. The current value is one in the package.
+
+217
+00:24:54,940 --> 00:25:04,330
+Then we have a die to, which is made for a die, has six sides and has a face value of one.
+
+218
+00:25:04,330 --> 00:25:17,980
+So using not really take one. So using this one set of code right here, using this one set of code, I've created two dice.
+
+219
+00:25:17,980 --> 00:25:22,180
+Two dice, right? Two dice. Two dice.
+
+220
+00:25:22,180 --> 00:25:29,500
+I can go on and on and I can create other die using this, but that's not going to be any fun.
+
+221
+00:25:29,500 --> 00:25:40,030
+And when we do things like this, we're having to create variables for each one of those die, which is probably not a good thing.
+
+222
+00:25:40,030 --> 00:25:46,460
+You learned a few weeks ago about list and how a list can be like a bag of dye.
+
+223
+00:25:46,460 --> 00:25:50,500
+It can have multiple dice inside of it. All right.
+
+224
+00:25:50,500 --> 00:26:01,030
+So let's just put this aside for now and let me create another demo that's going to expand on this die a little bit.
+
+225
+00:26:01,030 --> 00:26:05,410
+So I'm going to do control and I'm going to paste in the code.
+
+226
+00:26:05,410 --> 00:26:10,990
+I'm going to save it. I'm going to call it Demo Dash to.
+
+227
+00:26:10,990 --> 00:26:15,920
+Don't. I think. Demo Test two PI.
+
+228
+00:26:15,920 --> 00:26:20,810
+And there's my die. There it is. There is my template to make die.
+
+229
+00:26:20,810 --> 00:26:31,350
+Now this is all well and good. If we just want to be able to create like one die or, you know, a million die.
+
+230
+00:26:31,350 --> 00:26:44,480
+Okay. So what we want to be able to do is to be able to give our guy something that a real die would have.
+
+231
+00:26:44,480 --> 00:26:49,910
+And when you're playing a game, what's the one thing you do with a die?
+
+232
+00:26:49,910 --> 00:26:56,680
+What do you do with it, you? Roll it, you roll it right.
+
+233
+00:26:56,680 --> 00:27:01,030
+So how do we give our die that we're creating?
+
+234
+00:27:01,030 --> 00:27:09,490
+Thanks, Robert. By the way, how do we create a method or a way that our die can do something?
+
+235
+00:27:09,490 --> 00:27:18,670
+And in this case, it's how could we make it so we can roll it via software and by rolling it?
+
+236
+00:27:18,670 --> 00:27:23,140
+What is the one property of that die that's going to change?
+
+237
+00:27:23,140 --> 00:27:28,510
+It's not going to change and morph into having more or less sides.
+
+238
+00:27:28,510 --> 00:27:37,160
+But what's going to be the one thing that changes when after we roll a die anybody?
+
+239
+00:27:37,160 --> 00:27:43,550
+What's going to be under my eyes? Yeah, but what what?
+
+240
+00:27:43,550 --> 00:27:55,450
+That but what what property of that guy gets randomized? What what property on line three or four of my code gets randomized?
+
+241
+00:27:55,450 --> 00:28:05,900
+Which property there? Besides the assures, so when I roll the die, the number of side change or does the value change Jojo?
+
+242
+00:28:05,900 --> 00:28:12,190
+But I guess like the side that you're meeting. So yeah, the the value, right?
+
+243
+00:28:12,190 --> 00:28:15,700
+That's the the the number of facing up, right?
+
+244
+00:28:15,700 --> 00:28:19,900
+So we're playing. Yeah, yeah, I gotcha.
+
+245
+00:28:19,900 --> 00:28:25,150
+So what we want to do is we want to define a new method called roll.
+
+246
+00:28:25,150 --> 00:28:34,330
+Let's just call it roll, roll roll. And then we're going to say, Hey, self, hey di you, I'm talking to you.
+
+247
+00:28:34,330 --> 00:28:47,020
+Roll yourself, right? And then I'm going to say, like Jojo said, we need to be able to now generate a random number, right?
+
+248
+00:28:47,020 --> 00:28:53,080
+Because Ben is playing this game and he's writing a software game and he rolls that AI, right?
+
+249
+00:28:53,080 --> 00:28:58,600
+So he's going to say, Hey, software guy that we haven't created in this demo yet.
+
+250
+00:28:58,600 --> 00:29:09,970
+I need you to generate a random number between one and six, because that's the number of sites that you have.
+
+251
+00:29:09,970 --> 00:29:15,510
+So here I go. Ready. I'm going to say, Hey, self.
+
+252
+00:29:15,510 --> 00:29:26,960
+I need you to set your value to. Some random number between one and six.
+
+253
+00:29:26,960 --> 00:29:40,790
+So anyone does anyone realize what functionality we need to bring into our code at this point to help us generate a random number, I hear somebody.
+
+254
+00:29:40,790 --> 00:29:44,840
+We need to import random. Yes, Ben.
+
+255
+00:29:44,840 --> 00:29:53,120
+So Ben is like, Hey, Bruce from the random library from random import rand.
+
+256
+00:29:53,120 --> 00:29:53,450
+Right?
+
+257
+00:29:53,450 --> 00:30:03,770
+Because Rand gives us and we've used this over and over again and write a set of random integers, random whole numbers inclusively between two things.
+
+258
+00:30:03,770 --> 00:30:06,380
+So could we not write do this?
+
+259
+00:30:06,380 --> 00:30:22,040
+Could we say Hey rand and generate a number, generate a number from one to one comma one to the number of sides that this particular guy has?
+
+260
+00:30:22,040 --> 00:30:26,930
+I didn't order code six because I'm saying, Hey di, look at yourself.
+
+261
+00:30:26,930 --> 00:30:30,450
+How many sides do you have? How many sides you have?
+
+262
+00:30:30,450 --> 00:30:33,710
+Look at yourself and the diocese. Oh, I got six.
+
+263
+00:30:33,710 --> 00:30:44,270
+So what it's going to do now is going to generate a random number between one and six and tell itself that that is its new value.
+
+264
+00:30:44,270 --> 00:30:53,570
+Just just like that. OK. Just like that. So what I can do in my code now, I'm out, didn't it all the way?
+
+265
+00:30:53,570 --> 00:30:58,820
+I have my di template and my dye template has two properties, right?
+
+266
+00:30:58,820 --> 00:31:04,940
+These are properties. Let me label these properties right.
+
+267
+00:31:04,940 --> 00:31:17,180
+And this down here is a method, right? Remember the when we took an object in the graphics library and we told it to draw itself, draw is a method.
+
+268
+00:31:17,180 --> 00:31:21,890
+Notice the method. Start with lowercase letters, right?
+
+269
+00:31:21,890 --> 00:31:29,120
+The class name starts with a capital letter, and we're not returning anything.
+
+270
+00:31:29,120 --> 00:31:39,470
+We're just saying, Hey, look at yourself, change the value of yourself from one to the number of sides that you have.
+
+271
+00:31:39,470 --> 00:31:46,700
+So let's go create our die one again. We're going to say die one equals create a new die, just create a new day.
+
+272
+00:31:46,700 --> 00:31:51,680
+And then we're going to say, Hey, die one actually print out, Hey, die one.
+
+273
+00:31:51,680 --> 00:31:56,300
+Print out the number of sides. Print out your value.
+
+274
+00:31:56,300 --> 00:32:06,980
+Print out your value. Tell me what your value is. And by default, that value is one because we haven't told our die to roll itself in code yet.
+
+275
+00:32:06,980 --> 00:32:11,570
+We just fabricated instantiated a new die.
+
+276
+00:32:11,570 --> 00:32:21,680
+So here it is, right down here. It's one we have one as the default value showing in our die when we created it.
+
+277
+00:32:21,680 --> 00:32:35,410
+So now if I say, Hey, die one. Hey, day one, I want you to take yourself and role yourself role as a method role is something that a guy can do.
+
+278
+00:32:35,410 --> 00:32:39,370
+It's not a prop., it's something that a guy can do.
+
+279
+00:32:39,370 --> 00:32:46,750
+And now if I just copy this line of code again, if I copy this line of code again,
+
+280
+00:32:46,750 --> 00:32:52,870
+hey, day one, what is your value after we asked you to roll yourself ready?
+
+281
+00:32:52,870 --> 00:32:57,870
+Let me run it. Do I did I point out there it is.
+
+282
+00:32:57,870 --> 00:33:03,780
+So one in one? Let me run it again. One in six.
+
+283
+00:33:03,780 --> 00:33:07,170
+One in five. One in four. One in six. One in five. One in two.
+
+284
+00:33:07,170 --> 00:33:11,280
+One and one one. And two one in five one in three six.
+
+285
+00:33:11,280 --> 00:33:18,050
+So do you see how we were able to create in the software?
+
+286
+00:33:18,050 --> 00:33:24,410
+A cookie cutter template to create a day when we created it, right?
+
+287
+00:33:24,410 --> 00:33:28,070
+This is a code that gets run when we do this line.
+
+288
+00:33:28,070 --> 00:33:43,790
+12. It gives itself a default value of one and six sides, and then we're asking our dye that we created to roll itself.
+
+289
+00:33:43,790 --> 00:33:51,770
+And we're setting its value that it knows it is, this is what we call an instance variable.
+
+290
+00:33:51,770 --> 00:34:01,170
+It kind of in this instance where we created Die One, it knows what value it's set to and that is one in fixed.
+
+291
+00:34:01,170 --> 00:34:12,610
+OK, but when we roll it, we're changing that value to be some number between one and the number of sides.
+
+292
+00:34:12,610 --> 00:34:25,530
+That particular dye has. What are you thinking about classes so far?
+
+293
+00:34:25,530 --> 00:34:29,830
+What what kind of questions are coming to mind kind of abstract?
+
+294
+00:34:29,830 --> 00:34:43,140
+Is this a very abstract concept? A little bit.
+
+295
+00:34:43,140 --> 00:34:53,600
+And then like. Well, I. Just because you're putting everything into one like what we were doing before, but now it's all into one group.
+
+296
+00:34:53,600 --> 00:34:58,580
+A group. So what Robert's referring to is, Bruce, you have these functions here.
+
+297
+00:34:58,580 --> 00:35:07,340
+Right? One of them has this weird name called Thunder and Thunder, and this other one is a regular one that you kind of recognize.
+
+298
+00:35:07,340 --> 00:35:12,090
+But they're all grouped together under this.
+
+299
+00:35:12,090 --> 00:35:15,660
+Class that is known as die. Right?
+
+300
+00:35:15,660 --> 00:35:19,110
+So, Robert? Yes, to that point.
+
+301
+00:35:19,110 --> 00:35:29,370
+A class is defined of a bunch of functions because again, going back to the graphics library when you created a new rectangle,
+
+302
+00:35:29,370 --> 00:35:35,970
+you could set it fill, you could set its outline, you could clone it.
+
+303
+00:35:35,970 --> 00:35:40,350
+There's a whole bunch of things that a rectangle was able to do,
+
+304
+00:35:40,350 --> 00:35:49,110
+and what we're doing is we're just mimicking that whole concept we learned with objects and the graphics library.
+
+305
+00:35:49,110 --> 00:36:03,450
+By creating our own objects that have properties right and are able to do what we need a thing to do and will do way more of these other than to die.
+
+306
+00:36:03,450 --> 00:36:07,800
+But Robert, does that help a little bit clarifying what's going on?
+
+307
+00:36:07,800 --> 00:36:11,400
+Yeah, it makes sense. But then like around like what?
+
+308
+00:36:11,400 --> 00:36:15,510
+I guess Line 11, would you normally put that in the main two? Yeah.
+
+309
+00:36:15,510 --> 00:36:22,170
+So Ben was Ben was on my shoulder and he's like, Bruce, you should really put that code in the main here.
+
+310
+00:36:22,170 --> 00:36:29,200
+Let me just do that. Is that better?
+
+311
+00:36:29,200 --> 00:36:33,090
+And that makes sense now. Yeah. I'm sorry.
+
+312
+00:36:33,090 --> 00:36:42,190
+Yeah. Yeah. I'm sorry about that. So and on that we were to change the value and the sides.
+
+313
+00:36:42,190 --> 00:36:45,960
+Would we have to create a new class? No.
+
+314
+00:36:45,960 --> 00:36:51,060
+So all right. So right now, our class is pretty boring, right?
+
+315
+00:36:51,060 --> 00:36:55,290
+It only creates six sided die with a default value of one.
+
+316
+00:36:55,290 --> 00:37:00,000
+Right? Now what if Ben's like, I want a 20 sided die?
+
+317
+00:37:00,000 --> 00:37:11,670
+OK, ready. Let me run the code. Let me run the code, and the default value is one, and when we roll it, it gets 14.
+
+318
+00:37:11,670 --> 00:37:19,590
+Two, 10, 14, C, so by just changing the template.
+
+319
+00:37:19,590 --> 00:37:23,570
+Let's say we want the default value now to be. 20.
+
+320
+00:37:23,570 --> 00:37:30,430
+Right when you when we manufacture or die and we box them up and we put them all together,
+
+321
+00:37:30,430 --> 00:37:34,720
+the default face that showing is the number 20 right or twenty two.
+
+322
+00:37:34,720 --> 00:37:42,130
+I don't know what the multi-sided dial look like, but now see how the default value of our dye is always 20.
+
+323
+00:37:42,130 --> 00:37:49,570
+And it's randomly generating a number between one and 20 when we roll the dye.
+
+324
+00:37:49,570 --> 00:37:57,670
+OK, Joshua are thinking about like, if we create more dye, well, we're going to get what I want by two.
+
+325
+00:37:57,670 --> 00:38:02,530
+Yeah, we're going to create. We're going to create a bag of dye, right?
+
+326
+00:38:02,530 --> 00:38:09,760
+So not that this has this is not a bag of dye, it's a bag of coins, right?
+
+327
+00:38:09,760 --> 00:38:13,480
+So I know you have like these bags where you put your dye in, right?
+
+328
+00:38:13,480 --> 00:38:21,530
+So how could we like write software that creates this bag of dye and a whole bunch of dye inside of it?
+
+329
+00:38:21,530 --> 00:38:26,890
+Right? And that's what I'm going to show you next. Before we before we carry on.
+
+330
+00:38:26,890 --> 00:38:31,090
+All right. So again, let me just go back to one here.
+
+331
+00:38:31,090 --> 00:38:37,820
+And even if we just make this a one sided dye, you can see here.
+
+332
+00:38:37,820 --> 00:38:44,480
+Let the default value is always one, right? The default value is always one.
+
+333
+00:38:44,480 --> 00:38:52,400
+And then when we roll it, it gets a new value between one and the number of sides that are available to that die.
+
+334
+00:38:52,400 --> 00:38:58,080
+And if I do this just so you can see loss here, I'll say.
+
+335
+00:38:58,080 --> 00:39:09,620
+Original. Value. And then I'll put here.
+
+336
+00:39:09,620 --> 00:39:18,510
+After rolled. Now when I run it.
+
+337
+00:39:18,510 --> 00:39:31,570
+One and then five. One an ABC.
+
+338
+00:39:31,570 --> 00:39:39,250
+OK, now let me just let me there's a couple more things we need to do here.
+
+339
+00:39:39,250 --> 00:39:43,180
+This is great. We've created one die. How boring, right?
+
+340
+00:39:43,180 --> 00:39:49,570
+So the question becomes right, how can we create is anyone?
+
+341
+00:39:49,570 --> 00:39:54,400
+Can gamers who use die? How many does a game typically have one die?
+
+342
+00:39:54,400 --> 00:40:00,500
+Or sometimes you have multiple die? That sometimes has multiple die.
+
+343
+00:40:00,500 --> 00:40:11,110
+All right. So how many die would you have? Well, and one of the games they have, like one of the main guys that we have is like spies.
+
+344
+00:40:11,110 --> 00:40:19,270
+OK, so let's go with say, Lindsay has been hired by a local company to write a pilot program,
+
+345
+00:40:19,270 --> 00:40:28,150
+and she needs to be able to simulate a game that has a bag that contains five dye.
+
+346
+00:40:28,150 --> 00:40:34,620
+And how many sides do those dye have? I'm just curious.
+
+347
+00:40:34,620 --> 00:40:47,370
+Is excited, 20 excited. Well, like for each star, I would be like six to seven on that side.
+
+348
+00:40:47,370 --> 00:40:54,450
+OK, let's just go with this that we need to create five die.
+
+349
+00:40:54,450 --> 00:40:57,900
+And we need to be able to, like, take those die in my hand,
+
+350
+00:40:57,900 --> 00:41:07,780
+shake my hand and then roll the die out on to the table and I can then read all of their their values.
+
+351
+00:41:07,780 --> 00:41:11,280
+Okay, so check this out. Actually, I'm going to go on the Demo three.
+
+352
+00:41:11,280 --> 00:41:19,020
+I'm just going to take all this code and copy it into Demo three, just so I don't mess too much stuff up.
+
+353
+00:41:19,020 --> 00:41:24,300
+Let me go. Demo three here. Demo three Dog Pie.
+
+354
+00:41:24,300 --> 00:41:28,880
+Paste in that code, right? And now I'm going to operate a little bit.
+
+355
+00:41:28,880 --> 00:41:39,440
+Okay. So I'm not I'm just going to cut this out for now, and let's create a variable called bag of.
+
+356
+00:41:39,440 --> 00:41:44,810
+Dice a bag of dice, bag of dice.
+
+357
+00:41:44,810 --> 00:41:56,690
+And if you remember in coding, when we want to put multiple things into a single variable, we create an empty list,
+
+358
+00:41:56,690 --> 00:42:02,260
+an empty list and you saw me do this when we learned about lists, how I could take,
+
+359
+00:42:02,260 --> 00:42:08,420
+you know, a bunch of circles and put the circles into a list and then draw those circles.
+
+360
+00:42:08,420 --> 00:42:12,320
+So here is my my empty bag of dye.
+
+361
+00:42:12,320 --> 00:42:21,530
+There's nothing in here right now. All right. So how can we programmatically in software create a new dye?
+
+362
+00:42:21,530 --> 00:42:26,040
+And add it and place it into our bag of dice.
+
+363
+00:42:26,040 --> 00:42:33,980
+OK, so let's do it. How do we do something five times what the programing concept?
+
+364
+00:42:33,980 --> 00:42:42,030
+You're sick and tired of hearing me say, What do we do when we need to do something five times?
+
+365
+00:42:42,030 --> 00:42:47,820
+Loop it. Yeah, loop it counted loop for Iron Range of five.
+
+366
+00:42:47,820 --> 00:43:02,490
+We want to put five dye into our bag, so what we can now do is we can say, Hey, bag of dice, I want you to append to you.
+
+367
+00:43:02,490 --> 00:43:12,720
+A new die just like that. That's weird. So online, 15, I'm saying, hey, bag of dice,
+
+368
+00:43:12,720 --> 00:43:23,160
+I want you to append because that's how we glue and place new things into our bag of tie into our list and then instead of a string and integer,
+
+369
+00:43:23,160 --> 00:43:33,460
+I'm just saying, Hey, create a new dye just like that. Just die open, close parentheses, just like that.
+
+370
+00:43:33,460 --> 00:43:40,960
+And now, if I print out just at the end here, if I say print out what is the length of our bag of dice,
+
+371
+00:43:40,960 --> 00:43:49,610
+which is going to tell us how many things are in that list, if I run this now, I should have five.
+
+372
+00:43:49,610 --> 00:43:56,660
+Die in that back. Okay, there they are. I can't I'm only pointing out the length right now.
+
+373
+00:43:56,660 --> 00:44:01,640
+I haven't even rolled the dice or done anything yet.
+
+374
+00:44:01,640 --> 00:44:12,380
+But I want to just break this down for you just a little bit easier because I think when we create a new die and we place it into this bad egg,
+
+375
+00:44:12,380 --> 00:44:18,380
+I'm thinking That's. Well, let me let me let me see if I can explain.
+
+376
+00:44:18,380 --> 00:44:23,660
+So what I'm going to do here is it's going to say lowercase dye equals dye just like that.
+
+377
+00:44:23,660 --> 00:44:30,280
+OK. There it is. There it is. I created a variable called dye lowercase.
+
+378
+00:44:30,280 --> 00:44:38,830
+Die, and I said, create a new die and hold on to it as a bat, as a variable called die,
+
+379
+00:44:38,830 --> 00:44:48,940
+and then what I'm going to do is I'm going to say, Hey, die, roll yourself before we stick you in the back, hey, die, roll yourself.
+
+380
+00:44:48,940 --> 00:44:55,900
+And then we're just going to add into the bag. That roll die.
+
+381
+00:44:55,900 --> 00:45:02,800
+OK. So instead of having a bag of dye that just has all the values the same because when I stick a guy in here,
+
+382
+00:45:02,800 --> 00:45:07,720
+it's going to it's going to roll around, right? It's just it's not going to be one.
+
+383
+00:45:07,720 --> 00:45:12,310
+So before we stick that guy into the back, we're going to roll it.
+
+384
+00:45:12,310 --> 00:45:16,510
+We could roll it a thousand times if we wanted to using a loop.
+
+385
+00:45:16,510 --> 00:45:25,270
+But here's what I'm going to create a dye from the dye class.
+
+386
+00:45:25,270 --> 00:45:35,310
+Roll the dye. Append the dye into the list just like that.
+
+387
+00:45:35,310 --> 00:45:47,880
+OK, so here's what I printed out the length print out the number of dye objects in the bag just like that.
+
+388
+00:45:47,880 --> 00:45:54,270
+But now how do I see the value?
+
+389
+00:45:54,270 --> 00:45:59,610
+Of each guy, how do I see the value of each day?
+
+390
+00:45:59,610 --> 00:46:04,740
+This variable contains a list of the five die.
+
+391
+00:46:04,740 --> 00:46:12,690
+So being what we've learned in this class, could I say for every I'll just call it for every.
+
+392
+00:46:12,690 --> 00:46:19,040
+Yeah, we'll call it die in the bag of dice for every.
+
+393
+00:46:19,040 --> 00:46:25,760
+Every guy that's in that bag of dice, could I say print out died dot value?
+
+394
+00:46:25,760 --> 00:46:35,490
+Can I say, Hey, hey, Don, what's your current value? And if I run this right and I'll go back and comment and the second if I run this.
+
+395
+00:46:35,490 --> 00:46:39,450
+You can see here now we have five, five five four one five.
+
+396
+00:46:39,450 --> 00:46:47,700
+If I create another bag of dye. Five, six, three, six, four, five five.
+
+397
+00:46:47,700 --> 00:46:56,930
+We're getting all these different value of as we're manufacturing, you know, bags of dice on our assembly line.
+
+398
+00:46:56,930 --> 00:47:03,750
+They're they're coming out with all these five dye because that's how many Lindsey said we needed in each bag.
+
+399
+00:47:03,750 --> 00:47:07,320
+But if we dumped out the dove from each one?
+
+400
+00:47:07,320 --> 00:47:14,430
+There they are there the the dye coming out differently each time.
+
+401
+00:47:14,430 --> 00:47:28,110
+And if we needed to create a set of dye that has like a bag of dye or a package that contains 100 dyes, we just change our loop to 100.
+
+402
+00:47:28,110 --> 00:47:37,030
+And now we get 100 dye of all different rolled values, a bag of dyes or packaged dyes whenever we want to call it.
+
+403
+00:47:37,030 --> 00:47:45,250
+Just like just like that. So let me let me break this down to iterate.
+
+404
+00:47:45,250 --> 00:47:52,170
+Loop right through each item and list.
+
+405
+00:47:52,170 --> 00:48:00,300
+Print out objects, value property.
+
+406
+00:48:00,300 --> 00:48:08,170
+So here is our completed beginner way to create.
+
+407
+00:48:08,170 --> 00:48:15,520
+A dye that contains six sides by default, the value of that dye is one.
+
+408
+00:48:15,520 --> 00:48:25,180
+We created a list, an empty list. Create empty list.
+
+409
+00:48:25,180 --> 00:48:29,690
+Loop one 100 times. And there you go.
+
+410
+00:48:29,690 --> 00:48:34,790
+We create a new dye. We roll that dye.
+
+411
+00:48:34,790 --> 00:48:46,900
+We then print out the length and then we iterate through the bag of dice one guy at a time and we print out its value.
+
+412
+00:48:46,900 --> 00:48:51,980
+How many different variable names did we create?
+
+413
+00:48:51,980 --> 00:48:58,110
+For the die. None. I mean, one, we only have this bag of dice.
+
+414
+00:48:58,110 --> 00:49:03,780
+So remember that the purpose of the list is to hold multiple things.
+
+415
+00:49:03,780 --> 00:49:10,050
+In this case, the things are not integers, they're not strings, but they're die.
+
+416
+00:49:10,050 --> 00:49:15,600
+And the two things that each guy has is a face value.
+
+417
+00:49:15,600 --> 00:49:28,460
+And a set number of sides. So this is kind of neat until right until.
+
+418
+00:49:28,460 --> 00:49:38,630
+Nathan, our boss says, you know, this is all well and good, we're able to create new dye, but I don't always want six sided die.
+
+419
+00:49:38,630 --> 00:49:47,600
+I may want a 20 sided die or a four sided die or a million sided right.
+
+420
+00:49:47,600 --> 00:49:58,190
+Okay, so we're going to be looking how to handle these types of things, because right now everything is hardcoded right here.
+
+421
+00:49:58,190 --> 00:50:08,210
+It's hard coded. We're saying when you instantiate a new dye, when you create a new dye one, and it's exciting any and all times.
+
+422
+00:50:08,210 --> 00:50:22,380
+Okay? You hear me say this each class, we don't write a lot of code, right?
+
+423
+00:50:22,380 --> 00:50:28,960
+But it's these concepts. And if you're going into web development, when we start talking to databases,
+
+424
+00:50:28,960 --> 00:50:38,900
+you know we're going to use this same type of concept where we connect to a database and then we're going to get a whole bunch of maybe.
+
+425
+00:50:38,900 --> 00:50:46,970
+You know, social media post back and then we're going to, you know, be able to do things with those social media posts, right?
+
+426
+00:50:46,970 --> 00:50:51,560
+Get the count, the count of likes that the number of comments, right?
+
+427
+00:50:51,560 --> 00:50:55,320
+So a post right is an object.
+
+428
+00:50:55,320 --> 00:51:00,860
+Then it contains information about the number of likes, the number of comments, right?
+
+429
+00:51:00,860 --> 00:51:07,550
+Whether it has images and we can it, we can do things with that particular, you know, social media post.
+
+430
+00:51:07,550 --> 00:51:18,500
+But that's what we'll save that for another day. So let's move on now and just step in through here and we're going to copy all this code again.
+
+431
+00:51:18,500 --> 00:51:26,320
+Copy all this code again. But we are now going to create a code.
+
+432
+00:51:26,320 --> 00:51:31,270
+That's going to not have a hard coded.
+
+433
+00:51:31,270 --> 00:51:35,800
+Face value or a hard coded number of sides?
+
+434
+00:51:35,800 --> 00:51:39,490
+Okay, so how do we do this?
+
+435
+00:51:39,490 --> 00:51:49,600
+How do we let me just check the time here? 10:53. How do we how do we how do we do this?
+
+436
+00:51:49,600 --> 00:51:56,090
+So what we do is when we create or instantiate a new dye.
+
+437
+00:51:56,090 --> 00:52:00,140
+We're going to add some parameters after herself, we're going to say, Hey,
+
+438
+00:52:00,140 --> 00:52:10,760
+I want you to have a default value of something and I want you to have a certain number of sides because when we create this new dye,
+
+439
+00:52:10,760 --> 00:52:19,280
+we are going to specify what we want the face value to be and the number of sites.
+
+440
+00:52:19,280 --> 00:52:27,920
+So what we're going to do here now is we're going to change this from a one to that variable that we're passing in called value.
+
+441
+00:52:27,920 --> 00:52:37,800
+And we're going to change this to the number of sides you want me to manufacture or instantiate or create that dye with.
+
+442
+00:52:37,800 --> 00:52:47,880
+So now you see that when we construct a new dye, it's got this self parameter here that always has to be there.
+
+443
+00:52:47,880 --> 00:52:54,270
+We're not going to do anything, but it's just a thing of the language that says this parameter needs to say,
+
+444
+00:52:54,270 --> 00:52:58,830
+Hey, self, look at yourself in the mirror. All right, cool. I know who I am.
+
+445
+00:52:58,830 --> 00:53:03,000
+And then it's going to get a value. And the number of sites?
+
+446
+00:53:03,000 --> 00:53:12,930
+OK. But when we're creating our die right here on Line 15, we now need to say how many what you want,
+
+447
+00:53:12,930 --> 00:53:17,100
+the default value to be and all that make it one here.
+
+448
+00:53:17,100 --> 00:53:21,840
+And how many sides do you want? The die to be will make it 100.
+
+449
+00:53:21,840 --> 00:53:26,250
+OK. So does anyone see the problem?
+
+450
+00:53:26,250 --> 00:53:37,410
+It's not a problem where this when we create this new dye work, we're saying that it requires three things stealth value inside.
+
+451
+00:53:37,410 --> 00:53:43,920
+But you start me. Just add to right here the value and the number of sites.
+
+452
+00:53:43,920 --> 00:53:52,650
+Now I want you to know that this is implied where we don't we don't specify self here on Line 15.
+
+453
+00:53:52,650 --> 00:54:00,540
+You don't do that won't work if it's just a weird thing in the language that's going to screw with your mind.
+
+454
+00:54:00,540 --> 00:54:09,420
+So when I run this now, I'm going to create a dye that's going to have a default value of one and 100 sides.
+
+455
+00:54:09,420 --> 00:54:19,800
+So check this out. Here we go. We actually I want to cut this number down just so you know, from one hundred to five.
+
+456
+00:54:19,800 --> 00:54:30,600
+Let's go back to five. I'm going to create a bag of five dye that are going to be default value of one and have 100 sides.
+
+457
+00:54:30,600 --> 00:54:37,690
+So here I go. There they are five, seventy five, eighty four, eighty two,
+
+458
+00:54:37,690 --> 00:54:49,980
+eight and seventy six and now when when Nathan says no, we need to make a run now of 100000 sided die.
+
+459
+00:54:49,980 --> 00:54:56,080
+Cool. There they are. They are there different die coming out?
+
+460
+00:54:56,080 --> 00:55:04,030
+Why are there six numbers? One is the length that's coming out, right, right here.
+
+461
+00:55:04,030 --> 00:55:09,380
+Oh, OK. Yeah. So let me get rid of that. So you can see.
+
+462
+00:55:09,380 --> 00:55:14,570
+So now I'm creating a bag of five dye that are 100000 sides.
+
+463
+00:55:14,570 --> 00:55:32,090
+And I did not hard code into my into my class anything any hard, hard numbers like one or four or five when I create this dye right here.
+
+464
+00:55:32,090 --> 00:55:46,390
+I'm passing in. The default value I want it to be and the number of sides I want that die to be.
+
+465
+00:55:46,390 --> 00:55:56,190
+OK. We're at the end of the quarter, you have to imagine that the content gets a little bit more tricky, right?
+
+466
+00:55:56,190 --> 00:56:01,170
+And this is, you know, it's not easy stuff to comprehend.
+
+467
+00:56:01,170 --> 00:56:06,720
+So I think we'll do some, some some more examples instead of die.
+
+468
+00:56:06,720 --> 00:56:19,890
+Maybe we'll do stuff with cars or animals or players or just about anything, any physical object that exists we can represent as a class.
+
+469
+00:56:19,890 --> 00:56:31,850
+Okay. Thank.
+
+470
+00:56:31,850 --> 00:56:40,730
+So again. We didn't create separate Barrack that values for the five type of variables for each die.
+
+471
+00:56:40,730 --> 00:56:48,380
+We just had one variable, which happened to be a list and a list can contain multiple things inside,
+
+472
+00:56:48,380 --> 00:56:53,720
+and each one of those things happened to be a dye object.
+
+473
+00:56:53,720 --> 00:57:05,920
+That dye object had a value and it knows how many sides it has, and each dye can do something.
+
+474
+00:57:05,920 --> 00:57:14,080
+By being able to roll itself, by being able to roll it and again when we do the animal classes in a second,
+
+475
+00:57:14,080 --> 00:57:19,060
+you'll start to see this take shape a little bit a little bit more.
+
+476
+00:57:19,060 --> 00:57:31,310
+Okay. When I first learned object oriented programing, which you're learning here it was, it was really hard.
+
+477
+00:57:31,310 --> 00:57:36,560
+It wasn't until I really started teaching it that it started making more sense.
+
+478
+00:57:36,560 --> 00:57:40,730
+Takes a while, takes a lot to wrap your head around. OK, let's do.
+
+479
+00:57:40,730 --> 00:57:45,830
+Let's do some more. Let's start from the very beginning. There we go.
+
+480
+00:57:45,830 --> 00:57:52,910
+Should we do cars or animals? Anybody cars or animals or something else?
+
+481
+00:57:52,910 --> 00:57:58,240
+Anyone have any? What about involves animals?
+
+482
+00:57:58,240 --> 00:58:05,530
+All right. We'll do animals. All right. So what does crate demo Dash five Pi?
+
+483
+00:58:05,530 --> 00:58:11,860
+Animals. OK, here we go. Just like animals, we sing that song.
+
+484
+00:58:11,860 --> 00:58:17,950
+I don't know. Just another five. Yeah, Maroon five.
+
+485
+00:58:17,950 --> 00:58:23,980
+Thank you, Colin. All right. So let's create. Let's do dogs.
+
+486
+00:58:23,980 --> 00:58:29,890
+Let's do dogs. Let's create a dog class. We're going to manufacture.
+
+487
+00:58:29,890 --> 00:58:32,360
+Digital dogs, digital dogs.
+
+488
+00:58:32,360 --> 00:58:42,370
+OK, so there is a good name for our class, remember that the first letter of our class name gets capitalized circle rectangle, polygon, right?
+
+489
+00:58:42,370 --> 00:58:54,340
+All graph, win all capital. Those are classes. And now let's create our constructor function when we create a new dog.
+
+490
+00:58:54,340 --> 00:59:00,730
+Right? Define Dunder init. Dunder.
+
+491
+00:59:00,730 --> 00:59:09,830
+Self. Okay, so by default, when we construct a new dog, we're just going to do that, but.
+
+492
+00:59:09,830 --> 00:59:16,310
+What are some properties that we should have for our dogs?
+
+493
+00:59:16,310 --> 00:59:22,980
+I hear list of actually not all software list, but.
+
+494
+00:59:22,980 --> 00:59:27,780
+Property properties, list of properties of dogs.
+
+495
+00:59:27,780 --> 00:59:35,790
+So tell me what are some things? If we're like manufacturing dogs, right?
+
+496
+00:59:35,790 --> 00:59:40,980
+What are some things, what are some properties dogs have? What are some properties?
+
+497
+00:59:40,980 --> 00:59:50,220
+Dogs have somebody. OK, breed, keep going.
+
+498
+00:59:50,220 --> 00:59:54,500
+Gender. Gender and what else keep going.
+
+499
+00:59:54,500 --> 01:00:02,350
+Color, color, size. OK, good, small, medium, large, yeah.
+
+500
+01:00:02,350 --> 01:00:11,300
+Keep going. What else?
+
+501
+01:00:11,300 --> 01:00:15,800
+It's not a trick question, just saying go look name.
+
+502
+01:00:15,800 --> 01:00:23,070
+All right, cool. What about wait, wait.
+
+503
+01:00:23,070 --> 01:00:28,910
+How about legs? Kyle.
+
+504
+01:00:28,910 --> 01:00:37,590
+What else? Watch your ears.
+
+505
+01:00:37,590 --> 01:00:47,640
+Yeah, they all have different irritants, but let's let's just for now focus on breed, gender, color, size, name.
+
+506
+01:00:47,640 --> 01:00:52,680
+We'll get rid of all this stuff. We'll just focus on these five properties from now.
+
+507
+01:00:52,680 --> 01:01:01,100
+All right. List. Of methods.
+
+508
+01:01:01,100 --> 01:01:05,930
+That dogs can do so. Tell me some things dogs can do.
+
+509
+01:01:05,930 --> 01:01:15,940
+What are some things? That dogs can do. They can bark, they can bark.
+
+510
+01:01:15,940 --> 01:01:26,010
+They can run, they can run, they can jump, they can eat, they can jump.
+
+511
+01:01:26,010 --> 01:01:36,280
+Then they can go potty right there. Fair list of things that our dogs and our.
+
+512
+01:01:36,280 --> 01:01:42,250
+Code that we're going to right here can do. Yeah.
+
+513
+01:01:42,250 --> 01:01:49,570
+Yes, Chris. All right. So what we want to do now is we want to when we construct a new dog, right?
+
+514
+01:01:49,570 --> 01:01:57,120
+We want to be able to give it a breed. A gender.
+
+515
+01:01:57,120 --> 01:02:01,780
+A color a size. Name.
+
+516
+01:02:01,780 --> 01:02:07,530
+OK. So when we create a new dog in our software code.
+
+517
+01:02:07,530 --> 01:02:13,540
+We're going to want to give it a brief gender, color, size and a name.
+
+518
+01:02:13,540 --> 01:02:22,130
+Can you? Makes sense so far when we create a new doc, so self.
+
+519
+01:02:22,130 --> 01:02:31,160
+Hey, dog, I want your breed to be whatever value we gave you to construct yourself.
+
+520
+01:02:31,160 --> 01:02:38,660
+Hey, well, hey, I want your color to be whatever color we told you to be.
+
+521
+01:02:38,660 --> 01:02:46,590
+And then I moved the Zoom window here. I want your.
+
+522
+01:02:46,590 --> 01:02:54,460
+Sized to be whatever size I told you to be. And I want your name to be whatever name I told you to be.
+
+523
+01:02:54,460 --> 01:02:59,130
+OK, so let's cut it off first dog, OK?
+
+524
+01:02:59,130 --> 01:03:03,210
+I think his name a reserved word in Python. Maybe so give me.
+
+525
+01:03:03,210 --> 01:03:10,160
+Let me credit me in here. Ben to mean.
+
+526
+01:03:10,160 --> 01:03:15,110
+Does anyone have a dog that anyone have a dog?
+
+527
+01:03:15,110 --> 01:03:19,970
+I have a dog. His name is lucky and he's kind of our team right now.
+
+528
+01:03:19,970 --> 01:03:23,510
+All right. So I created a book called Lucky. There it is.
+
+529
+01:03:23,510 --> 01:03:27,920
+Lucky the dog and we're going to make lucky a dog.
+
+530
+01:03:27,920 --> 01:03:33,980
+And now we need to give our software the breed.
+
+531
+01:03:33,980 --> 01:03:37,760
+So the breed is going to be a string, right? The breed is going to be a string.
+
+532
+01:03:37,760 --> 01:03:43,730
+So. Lindsay, what kind of dog is lucky?
+
+533
+01:03:43,730 --> 01:03:53,070
+Lucky is a black lab slash border collie, black lab slash border.
+
+534
+01:03:53,070 --> 01:03:56,850
+Colony. OK, now the next thing is gender.
+
+535
+01:03:56,850 --> 01:04:06,000
+What's the gender of the dog, male male and what is the color of your dog lacked?
+
+536
+01:04:06,000 --> 01:04:11,940
+OK. What is the size? Is it a large dog? It's a medium.
+
+537
+01:04:11,940 --> 01:04:15,810
+All right. Medium. And what is? Oh, it's lucky.
+
+538
+01:04:15,810 --> 01:04:27,810
+There it is. Right? All right. So now just by doing this code right here, I've created Lindsay's dog in software, right?
+
+539
+01:04:27,810 --> 01:04:32,580
+There it is. I have created Lindsay's dog in software.
+
+540
+01:04:32,580 --> 01:04:45,570
+In fact, if I say print out what kind of dog is lucky, I'll say breed just like that, it's going to come back and tell me that Lindsay's dog.
+
+541
+01:04:45,570 --> 01:04:52,950
+Is an error, OK, has no attribute name. I knew a new name was going to give me an issue.
+
+542
+01:04:52,950 --> 01:04:59,690
+Hold on one second. Lucky dot, lucky dot name.
+
+543
+01:04:59,690 --> 01:05:08,440
+OK, hold on. You're Reid. Gender, yes, thank you.
+
+544
+01:05:08,440 --> 01:05:19,650
+So that gender. And let's see if that fixes it, Robert.
+
+545
+01:05:19,650 --> 01:05:26,790
+Name name has given me. So let me just go right here.
+
+546
+01:05:26,790 --> 01:05:33,930
+So don't name names, I think name may be a reserved word.
+
+547
+01:05:33,930 --> 01:05:39,920
+Let's just call it. What's another word for name?
+
+548
+01:05:39,920 --> 01:05:46,320
+What's another variable for name that I could use, I don't. OK, very formal now.
+
+549
+01:05:46,320 --> 01:05:52,700
+OK, so I'm just going to change name to title. Let's see if it works now.
+
+550
+01:05:52,700 --> 01:06:15,690
+Go. Sized up, my fault means you didn't switch the name or the title.
+
+551
+01:06:15,690 --> 01:06:21,300
+One with code, let's just check my code self read.
+
+552
+01:06:21,300 --> 01:06:29,770
+So I have one two three four five one two three four five.
+
+553
+01:06:29,770 --> 01:06:37,410
+Right there there's that one two three four five.
+
+554
+01:06:37,410 --> 01:06:44,690
+Lucky that breed. It should be working, it's working on mine.
+
+555
+01:06:44,690 --> 01:06:53,690
+Yeah. Hold on a second. Let me just run this again.
+
+556
+01:06:53,690 --> 01:07:09,580
+Yeah, hold on. What love to see what's going on here?
+
+557
+01:07:09,580 --> 01:07:16,410
+Oh, wait, wait, wait, wait, wait. Signs that oh, look, look, look, see.
+
+558
+01:07:16,410 --> 01:07:21,750
+Self thought title self, that title name probably wouldn't work.
+
+559
+01:07:21,750 --> 01:07:27,810
+That was my goof ready. So there it is. There is Lindsay's dog and there is it's breed, right?
+
+560
+01:07:27,810 --> 01:07:32,910
+So in software, we have a variable called Lucki.
+
+561
+01:07:32,910 --> 01:07:38,190
+That's an object. And that object knows a whole bunch of things about itself.
+
+562
+01:07:38,190 --> 01:07:43,830
+It knows its breed, its gender, its color, its size and its title.
+
+563
+01:07:43,830 --> 01:07:49,230
+Right. Just like that. And if I create, I'll create my dog.
+
+564
+01:07:49,230 --> 01:08:05,170
+Dr. If a dog is a he's black and white model, actually, he is a English springer spaniel who is barking in the hallway right now.
+
+565
+01:08:05,170 --> 01:08:15,100
+English Springer Spaniel. And then he is a male dog.
+
+566
+01:08:15,100 --> 01:08:26,810
+He is color, he's black and white and he is thighs medium.
+
+567
+01:08:26,810 --> 01:08:29,370
+And his name is Tucker.
+
+568
+01:08:29,370 --> 01:08:43,340
+Okay, so I created right from this bunch of code here to objects that happen to be dogs that have one, two, three, four or five properties.
+
+569
+01:08:43,340 --> 01:08:46,970
+We have no methods. These dogs can't do anything right now.
+
+570
+01:08:46,970 --> 01:08:59,810
+And by the way, if I print out Tucker as they breed right, I can then see that Tucker is an English springer spaniel.
+
+571
+01:08:59,810 --> 01:09:06,620
+So I don't know about you, but everything, you know, kind of what we've learned in this class, right,
+
+572
+01:09:06,620 --> 01:09:16,290
+this this like totally changes the game because unlike anything else, we are creating a template.
+
+573
+01:09:16,290 --> 01:09:26,840
+Kind of like the graphics library, where we're able to define an object, right, which has.
+
+574
+01:09:26,840 --> 01:09:32,860
+Instance variables. These are instance variables, by the way, let me just put this here.
+
+575
+01:09:32,860 --> 01:09:42,970
+Instance, variables, that means for this instance of lucky and or Tucker, here are these values and each one is different.
+
+576
+01:09:42,970 --> 01:09:49,810
+But we made Lindsey's dog and my dog right in the software through this same template.
+
+577
+01:09:49,810 --> 01:09:54,560
+Okay. Should we take a break, by the way?
+
+578
+01:09:54,560 --> 01:10:06,450
+Should we take a break? 11 plus 11 plus 12 plus 10 is 22, so I'll stop the recorder.
+
+579
+01:10:06,450 --> 01:10:12,270
+What's? I'll stop the recorder I wanted to do right.
+
+580
+01:10:12,270 --> 01:10:20,240
+So, OK, so data, it's totally a natural thing to find coding difficult.
+
+581
+01:10:20,240 --> 01:10:28,160
+OK. That's good to know, because some people will make it look like it's easy.
+
+582
+01:10:28,160 --> 01:10:33,650
+And I probably taught maybe two thousand students over nine years, maybe not,
+
+583
+01:10:33,650 --> 01:10:40,130
+I don't one hundred and four, ninety five percent of those students, this stuff is very difficult.
+
+584
+01:10:40,130 --> 01:10:47,610
+But Joshua just know that a lot of the students that I do keep in touch with.
+
+585
+01:10:47,610 --> 01:10:56,760
+I have done really well, and they had this is their first programing course, so it takes time.
+
+586
+01:10:56,760 --> 01:11:00,570
+Right? Think about just think about high school, right?
+
+587
+01:11:00,570 --> 01:11:05,790
+And how many years we're taught like English, write English as a language, right?
+
+588
+01:11:05,790 --> 01:11:09,540
+It has syntax. It has semantics, just like all this stuff.
+
+589
+01:11:09,540 --> 01:11:13,260
+Right. And here we are nine weeks later with a new language.
+
+590
+01:11:13,260 --> 01:11:18,030
+And, you know, give yourself some credit for what you know already.
+
+591
+01:11:18,030 --> 01:11:21,300
+You may still not be as good as you.
+
+592
+01:11:21,300 --> 01:11:30,420
+One day will be at it, but I was I was that same person as Joshua, so and I still have a ton to learn.
+
+593
+01:11:30,420 --> 01:11:36,220
+So here we go. So there are two dogs and it says recording yes.
+
+594
+01:11:36,220 --> 01:11:40,110
+Does it say recording somewhere? Yup. All right.
+
+595
+01:11:40,110 --> 01:11:44,720
+I need to take my glasses off because my eyes lately are just I don't.
+
+596
+01:11:44,720 --> 01:11:48,870
+I don't. It's new glasses. I don't know if it's out or I don't know.
+
+597
+01:11:48,870 --> 01:11:53,250
+So here we go. We got two dogs. Yay.
+
+598
+01:11:53,250 --> 01:11:58,980
+Yay, we got two dogs. And right now, our dogs are kind of boring, right?
+
+599
+01:11:58,980 --> 01:12:05,160
+All right. One more dog. Let me create one more dog. I'll create Bella.
+
+600
+01:12:05,160 --> 01:12:12,510
+She was a dog of ours. She's no longer here. She was an English springer spaniel.
+
+601
+01:12:12,510 --> 01:12:17,950
+She was female. Notice how the type.
+
+602
+01:12:17,950 --> 01:12:23,970
+You notice how this is changing. See this right here. How it's highlighting what I need to do next.
+
+603
+01:12:23,970 --> 01:12:29,220
+She was tricolor. I'll just leave that to three colors.
+
+604
+01:12:29,220 --> 01:12:34,690
+She was a medium dog and her name was Bella.
+
+605
+01:12:34,690 --> 01:12:48,610
+Bella Luna, beautiful moment. And if I print out, like, print out Bella's value of, I don't know, gender, it's going to print out female, right?
+
+606
+01:12:48,610 --> 01:12:55,030
+So if I run this code, we got Lindsay's dog, our dog, and we have Bella, who is a female.
+
+607
+01:12:55,030 --> 01:13:05,620
+Right? So I have these three objects in my code that have these five properties, but they can't do anything right now.
+
+608
+01:13:05,620 --> 01:13:09,970
+Our dogs are unable to do anything. OK.
+
+609
+01:13:09,970 --> 01:13:19,750
+And also what I'm going to teach you is that you see how I'm accessing these property names like this breed, breed, gender.
+
+610
+01:13:19,750 --> 01:13:29,830
+I'm going to show you a better way to do this because this is but there's just always a better, more professional way to do things.
+
+611
+01:13:29,830 --> 01:13:32,060
+But again, think about this.
+
+612
+01:13:32,060 --> 01:13:41,320
+This is the first time in this class where we've created a template and we've made stuff just like from the graphics library.
+
+613
+01:13:41,320 --> 01:13:50,210
+We've we've we've used that template to craft to create Locky, Tucker and Bella in software.
+
+614
+01:13:50,210 --> 01:13:55,720
+OK, so let's go back. We need our dogs to be able to bark, right?
+
+615
+01:13:55,720 --> 01:14:01,810
+So what we need to do is define, define a new method.
+
+616
+01:14:01,810 --> 01:14:06,310
+Right in our class that all dogs can do our template,
+
+617
+01:14:06,310 --> 01:14:13,660
+that when we make all dogs and we're going to define a new method, lowercase bark just like that.
+
+618
+01:14:13,660 --> 01:14:19,420
+And we need to tell that particular dog itself to bark.
+
+619
+01:14:19,420 --> 01:14:24,420
+That's why I put self in there. And then I'm going to say print.
+
+620
+01:14:24,420 --> 01:14:31,200
+Woof, woof. Just like that, because that's how it Dogwood border, right?
+
+621
+01:14:31,200 --> 01:14:38,630
+We print out the words. Woof, woof. Right. So I could tell any of my dogs now.
+
+622
+01:14:38,630 --> 01:14:43,220
+To Bach. So let's take lucky and say, hey, lucky.
+
+623
+01:14:43,220 --> 01:14:47,840
+Bach, just like that. It's a method. We do the parentheses.
+
+624
+01:14:47,840 --> 01:14:53,270
+We don't give it. The self here just needs to be here, but we don't put it here.
+
+625
+01:14:53,270 --> 01:15:03,370
+And now when I run this. We've seen the same information and then we see Lindsay's dog walking.
+
+626
+01:15:03,370 --> 01:15:13,450
+And we could do the same for Tucker. And we could do the same for Bella.
+
+627
+01:15:13,450 --> 01:15:19,030
+Right, all these dogs are made from the same template, they can all do the same thing.
+
+628
+01:15:19,030 --> 01:15:25,660
+Now wouldn't it be nice? Instead of just Wolf Wolf, we knew which dog was barking, right?
+
+629
+01:15:25,660 --> 01:15:33,700
+So could I just say, could I just do this? Could I say, I'm going to use that string here because I'm being lazy?
+
+630
+01:15:33,700 --> 01:15:42,440
+And could I say, Hey, self, what's your title? Is your name?
+
+631
+01:15:42,440 --> 01:15:46,480
+Just like that. And now when I run it, it says Lucky Wolf.
+
+632
+01:15:46,480 --> 01:15:51,440
+Wolf Tucker. Wolf Wolf. Bella Luna Wolf with.
+
+633
+01:15:51,440 --> 01:15:55,490
+So I'm telling each one of those objects, what's your name?
+
+634
+01:15:55,490 --> 01:16:02,600
+What's your title? And then I'm putting out the words with. Or I could just do this.
+
+635
+01:16:02,600 --> 01:16:08,600
+Right, Bella Part Tucker barked, Lucky [INAUDIBLE].
+
+636
+01:16:08,600 --> 01:16:21,890
+So watch us. Lucky Tucker Park, Bella Luna Park, OK, I guess I was getting ahead of myself, I use the quotation marks.
+
+637
+01:16:21,890 --> 01:16:31,470
+What do you mean, Joshua? Like I try to like in the parentheses versus lucky breed?
+
+638
+01:16:31,470 --> 01:16:41,510
+I actually got lucky title collar quotation is a comma and then another quotation that says lucky breeds,
+
+639
+01:16:41,510 --> 01:16:46,310
+so they print out like lucky is the Black Lab colleague or.
+
+640
+01:16:46,310 --> 01:16:52,880
+Well, let's talk about that, right? So here we created our our three dogs.
+
+641
+01:16:52,880 --> 01:16:57,990
+We gave them a breed, gender, color, size and title.
+
+642
+01:16:57,990 --> 01:17:02,300
+Right. And there they are.
+
+643
+01:17:02,300 --> 01:17:08,690
+They all have this. Those five properties and all of them can bark, right?
+
+644
+01:17:08,690 --> 01:17:14,300
+All of them can bark, right? So let's do this again now and let's create.
+
+645
+01:17:14,300 --> 01:17:24,220
+We did bark. Let's do run. Let's create another method. Called Run, and we're going to tell you the dog, too.
+
+646
+01:17:24,220 --> 01:17:45,000
+And I'm just going to this copy this. What's?
+
+647
+01:17:45,000 --> 01:17:50,940
+So I'm just adding additional methods for each of those objects.
+
+648
+01:17:50,940 --> 01:17:56,930
+And now I can instead of Barak, I can say, Hey, hey, Tucker.
+
+649
+01:17:56,930 --> 01:18:06,830
+Park. Just like that. I meant run.
+
+650
+01:18:06,830 --> 01:18:15,230
+Sorry. Hey, Tucker. Run. Just like that again, these are all method bark run.
+
+651
+01:18:15,230 --> 01:18:20,390
+They're different things, and you can see here we're getting Tucker to run.
+
+652
+01:18:20,390 --> 01:18:36,970
+We're getting Tucker to run if I want to get if I want to get lucky to run her lucky run.
+
+653
+01:18:36,970 --> 01:18:48,790
+All three dogs made from the same template, the same class, all have five instance variables, five properties.
+
+654
+01:18:48,790 --> 01:18:59,060
+Right now they have two methods. They can bark and they can run and we can do the same thing with each jump and potty.
+
+655
+01:18:59,060 --> 01:19:09,730
+So if I say if I create a new method called potty. Kind of put that self in there, and I put in that.
+
+656
+01:19:09,730 --> 01:19:25,950
+Is going to stay. Just like that now when I want a particular dog to go potty, I'll say, Hey, Bella, go potty.
+
+657
+01:19:25,950 --> 01:19:35,770
+Now. Gerri, what do you think of this stuff?
+
+658
+01:19:35,770 --> 01:19:40,290
+It's pretty cool. It's a lot.
+
+659
+01:19:40,290 --> 01:19:51,190
+It is a lot, and it's it's the sheer fact that again, we're not creating function functions like do a bunch of code and then they're done.
+
+660
+01:19:51,190 --> 01:19:57,940
+Maybe they print something out. Maybe they send something back, but they forget everything they know.
+
+661
+01:19:57,940 --> 01:20:08,560
+And when we create objects, these objects live on right from this stuff that we created them with.
+
+662
+01:20:08,560 --> 01:20:12,520
+Right? They know their breed. They know all these properties.
+
+663
+01:20:12,520 --> 01:20:18,040
+They know they can bark, they know they can run, they know they can go potty.
+
+664
+01:20:18,040 --> 01:20:27,670
+And just like we did with the dye, let's say I want to create a pack of dogs, right?
+
+665
+01:20:27,670 --> 01:20:38,440
+I no longer want to create variables for each of my dogs because that's kind of not a we wouldn't do
+
+666
+01:20:38,440 --> 01:20:46,510
+that in in a professional environment because we would have to create variables for each of the dogs.
+
+667
+01:20:46,510 --> 01:20:51,070
+But what if we want to model what we did with the bag of dice, right?
+
+668
+01:20:51,070 --> 01:20:59,080
+The bag of dice and create a pack of dogs? Right. So I'm going to copy all this code and not mess this up.
+
+669
+01:20:59,080 --> 01:21:04,000
+Copy all that code. Go in, create a new program and paste it in.
+
+670
+01:21:04,000 --> 01:21:10,360
+Save it. I'm going to call this demo Dash six that way.
+
+671
+01:21:10,360 --> 01:21:17,470
+And instead of creating right, I'm just going to clean all this up instead of creating these variables here.
+
+672
+01:21:17,470 --> 01:21:27,550
+Right? What I'm going to do right is I am going to not just do this, I'm going to get rid of it all.
+
+673
+01:21:27,550 --> 01:21:32,550
+I'm going to create a list pack of dogs. There they are.
+
+674
+01:21:32,550 --> 01:21:41,210
+Pack of dogs. It's an empty list. But my job now is to be able to create like 100.
+
+675
+01:21:41,210 --> 01:21:46,190
+Dogs, right? I'm going to make the same dog for now, just for my example.
+
+676
+01:21:46,190 --> 01:21:52,070
+And then we're going to have them all go potty at the same time. OK, so how do I do that right?
+
+677
+01:21:52,070 --> 01:21:59,090
+For I in range of 100 creating a pack, 100 dogs.
+
+678
+01:21:59,090 --> 01:22:10,280
+Saying, Hey, pack of dogs, a pen to yourself, a new dog, and the dog is going to be a.
+
+679
+01:22:10,280 --> 01:22:18,100
+We're going to do poodles, OK? A poodle. The gender is going to be will make them all male.
+
+680
+01:22:18,100 --> 01:22:21,500
+We'll make the color, they're all white.
+
+681
+01:22:21,500 --> 01:22:30,290
+Will make the size all small, and we'll just call them instead of a name, we'll just call them a poodle just for now.
+
+682
+01:22:30,290 --> 01:22:35,120
+OK, so there is my pack of dogs. I just created.
+
+683
+01:22:35,120 --> 01:22:38,840
+Let me run it just to make sure it doesn't throw up. All right, good.
+
+684
+01:22:38,840 --> 01:22:43,100
+So in software, I've created a bunch of 100 dogs.
+
+685
+01:22:43,100 --> 01:22:50,150
+They're living in this pack of dogs. They're all in there. So how do I get them all to go potty, right?
+
+686
+01:22:50,150 --> 01:22:57,890
+I don't get them all to go potty. Well, I can say for every lowercase dog or four, I doesn't matter.
+
+687
+01:22:57,890 --> 01:23:06,050
+For dog in pack of dogs, for every pack of dogs is a list we can iterate through lists.
+
+688
+01:23:06,050 --> 01:23:13,860
+One list element at a time, Jerry. And then we can say, Hey dog, go potty.
+
+689
+01:23:13,860 --> 01:23:22,700
+Just like that. So I'm going back, I created 100 dogs.
+
+690
+01:23:22,700 --> 01:23:30,410
+And now I'm telling all those dogs to go potty. So let's do it.
+
+691
+01:23:30,410 --> 01:23:34,070
+Now they are they're all going potty at the same time.
+
+692
+01:23:34,070 --> 01:23:45,020
+Just by right, rating 100 of them and sticking each dog in a list and you know what a better name instead of a poodle.
+
+693
+01:23:45,020 --> 01:23:49,850
+Let's just call the name of the dog a number.
+
+694
+01:23:49,850 --> 01:23:55,850
+So I'm going to take I, which is the iterator zero, one, two, three or four.
+
+695
+01:23:55,850 --> 01:24:00,710
+And I'm going to make it into a string and we're going to call our dog a number.
+
+696
+01:24:00,710 --> 01:24:04,550
+Your dog zero, your dog one. That's that's your title.
+
+697
+01:24:04,550 --> 01:24:13,670
+And now. Please hold a.
+
+698
+01:24:13,670 --> 01:24:23,450
+So now you can see each of the dogs, dogs zero is going potty, one five all the way up through.
+
+699
+01:24:23,450 --> 01:24:30,680
+Don, ninety nine zero to ninety nine is 100, so now I have a pack of dogs made in software.
+
+700
+01:24:30,680 --> 01:24:36,260
+They're all the same, right? We're just being generic now.
+
+701
+01:24:36,260 --> 01:24:39,860
+But how about them apples? How about them apples?
+
+702
+01:24:39,860 --> 01:24:46,160
+Then think about games. Think about games and how we may create a player class.
+
+703
+01:24:46,160 --> 01:24:56,470
+And some of you saw the video that I shared with you all about what we're going to do on Wednesday is create a player class to.
+
+704
+01:24:56,470 --> 01:25:02,450
+To to do what kind of work we're doing here, but with gameplay.
+
+705
+01:25:02,450 --> 01:25:08,910
+Right. All your games have when you like. I didn't know nothing about games, right?
+
+706
+01:25:08,910 --> 01:25:16,440
+But you know you, you have maybe a name, you have armor, you have weapons, you have,
+
+707
+01:25:16,440 --> 01:25:21,890
+you know how you have all these different things and that's what kind of what we're doing here.
+
+708
+01:25:21,890 --> 01:25:29,120
+We're creating the template, the class for each doc or for each player or for each dot.
+
+709
+01:25:29,120 --> 01:25:32,090
+Yeah, it lends that question.
+
+710
+01:25:32,090 --> 01:25:43,040
+So lately I've been playing in like Sonic Forces, like on my computer, and I just realized something then this like code like,
+
+711
+01:25:43,040 --> 01:25:48,200
+how do you think they make different classes for each character's skills?
+
+712
+01:25:48,200 --> 01:25:54,260
+Like, how do they do that? So we're going to be doing that on Wednesday.
+
+713
+01:25:54,260 --> 01:25:59,860
+So just like because like a Ali, sorry, Ali.
+
+714
+01:25:59,860 --> 01:26:06,050
+No, no, no, no. You're cool. My eyes were just bugging me when we think about a list, right?
+
+715
+01:26:06,050 --> 01:26:13,820
+Your player has a list of skills or a list of weapons or a list of things that it can do.
+
+716
+01:26:13,820 --> 01:26:21,920
+And when we when we talk on Wednesday and when we develop a game,
+
+717
+01:26:21,920 --> 01:26:31,160
+one of the things that a player is going to have is a list of weapons, a list of skills and things like that.
+
+718
+01:26:31,160 --> 01:26:36,560
+All right, so. OK. Yeah. Yeah, good question.
+
+719
+01:26:36,560 --> 01:26:46,730
+Thanks. Let's do it just right. The out of this like on this play, this kind of looks like a game mechanic from a game I've been playing recently.
+
+720
+01:26:46,730 --> 01:26:51,770
+Yeah. Well, the whole point of this is this to show you just that.
+
+721
+01:26:51,770 --> 01:26:57,710
+If you can only write simple code like we've written all quarter long before,
+
+722
+01:26:57,710 --> 01:27:04,400
+you're going to have the need to do stuff like this, I didn't create variables for each dog.
+
+723
+01:27:04,400 --> 01:27:13,850
+They're not there. They are an element in a list or a pack of dogs, and they're all sitting in this list, all next to each other.
+
+724
+01:27:13,850 --> 01:27:17,360
+They don't fight, but there they are there.
+
+725
+01:27:17,360 --> 01:27:23,310
+If I change this to, you know. 100000 dogs.
+
+726
+01:27:23,310 --> 01:27:30,210
+Not that I want to have 100000 dogs go potty and print that out all at one time, right?
+
+727
+01:27:30,210 --> 01:27:37,140
+But there I go. I commit 100000 dogs or if I want like 10 dogs, there they go.
+
+728
+01:27:37,140 --> 01:27:47,160
+Right, there they go. Right? There they go, there are the 10 dogs 039 all going potty now.
+
+729
+01:27:47,160 --> 01:27:55,510
+The one thing I wanted to tell you kind of going back to what we had before and then we'll probably cut cut this on.
+
+730
+01:27:55,510 --> 01:28:09,430
+For today, because this is complex stuff, is I told you that it's not cool to say like dog got gender right or dog scholar.
+
+731
+01:28:09,430 --> 01:28:15,400
+It's better to create methods and this is on a quiz.
+
+732
+01:28:15,400 --> 01:28:27,130
+These are called getters and setters, accessories and beauty towards right getters and setters, not dogs, not Irish setters.
+
+733
+01:28:27,130 --> 01:28:40,340
+But here, let me take this out, getters. Sweaters or accessories mutate towards that's that the computer science name,
+
+734
+01:28:40,340 --> 01:28:51,770
+where these getters and setters are going to be a way for us to get the dog's breed.
+
+735
+01:28:51,770 --> 01:29:00,980
+But right now, we don't have a really good way of doing that or changing the dog's name, right?
+
+736
+01:29:00,980 --> 01:29:09,680
+Or something about that dog. We could say Dog, don't breed and change the dog's breed.
+
+737
+01:29:09,680 --> 01:29:22,490
+But you don't ever really want to do that. What you want to do is create waves in your code, in your class to gracefully change things.
+
+738
+01:29:22,490 --> 01:29:27,920
+You don't want to access these property names directly. It's a really bad habit.
+
+739
+01:29:27,920 --> 01:29:39,830
+So let's go in here and say define a new getter called get on the score breed self.
+
+740
+01:29:39,830 --> 01:29:45,290
+Return self-taught breed. Now that's kind of weird, right?
+
+741
+01:29:45,290 --> 01:29:53,750
+We're saying we created a method called Get Breed that we can call and we're saying, Hey, dog, look at yourself.
+
+742
+01:29:53,750 --> 01:29:59,120
+What kind of dog are you? And then it's going to say it's going to send back.
+
+743
+01:29:59,120 --> 01:30:10,460
+To me, the brief, this is the way that you should get information about your objects.
+
+744
+01:30:10,460 --> 01:30:17,720
+So now I can say right, instead of going potty, I can say dog dot.
+
+745
+01:30:17,720 --> 01:30:22,380
+Get on the score, breathe just like that.
+
+746
+01:30:22,380 --> 01:30:27,160
+Not not this, not dog, don't.
+
+747
+01:30:27,160 --> 01:30:39,070
+Dogs don't do that, don't do that bad. But look at I created a nice, elegant, programmatic way to get me the breed of a dog.
+
+748
+01:30:39,070 --> 01:30:44,200
+And now when I run this code? I get an error, right?
+
+749
+01:30:44,200 --> 01:30:54,100
+So what a team here, it's saying, oh, so it gave me that dog breed, but I didn't do anything with it.
+
+750
+01:30:54,100 --> 01:30:59,860
+Could I could I do this? Could I say print out?
+
+751
+01:30:59,860 --> 01:31:08,530
+Whatever got returned to me, that was my fault before, could I print it out and could I say, Yeah, they're all tools?
+
+752
+01:31:08,530 --> 01:31:15,130
+That's the way that you would do things. And I could do the same thing, create another.
+
+753
+01:31:15,130 --> 01:31:20,800
+Get her, get her, get the color.
+
+754
+01:31:20,800 --> 01:31:30,000
+Hey, dog, look at yourself. Return to whoever asked you what color you are.
+
+755
+01:31:30,000 --> 01:31:36,550
+And. Print out, Hey, dog, get your color.
+
+756
+01:31:36,550 --> 01:31:40,490
+Get your. Color just like that.
+
+757
+01:31:40,490 --> 01:31:48,890
+Getters and setters, these are accessories, accessories, we're accessing information,
+
+758
+01:31:48,890 --> 01:31:55,340
+we're accessing information about an object, about a dog, and we're saying, Hey dog, which a breed?
+
+759
+01:31:55,340 --> 01:32:01,290
+Look at yourself. Send back to me what you are and when I run it.
+
+760
+01:32:01,290 --> 01:32:10,630
+You can see here. Right, poodle, white, this is the color, and this is the professional way of returning information.
+
+761
+01:32:10,630 --> 01:32:15,190
+We never want to do this. That's bad. OK, that's bad.
+
+762
+01:32:15,190 --> 01:32:22,450
+That's a bad thing to do. And you saw me do it probably in some of the videos about the dye or the player class or something,
+
+763
+01:32:22,450 --> 01:32:30,830
+because I've learned so I've learned since I've made that video that it's better to do things and more pro right?
+
+764
+01:32:30,830 --> 01:32:35,240
+Best practice to do things like I'm doing here now. These are all good.
+
+765
+01:32:35,240 --> 01:32:39,820
+These are getters. This gets me information about a dog.
+
+766
+01:32:39,820 --> 01:32:47,980
+But what if I want to change the dog's name? Let's say we adopt the dog and the dog.
+
+767
+01:32:47,980 --> 01:32:54,340
+His name changes. So we need a way to mutate, to change, right?
+
+768
+01:32:54,340 --> 01:32:59,110
+To set the dog's name. And again.
+
+769
+01:32:59,110 --> 01:33:10,820
+This is the way to do it. We define a new method and we call it set getters and setters get ers and setters, not dogs, that will call it title.
+
+770
+01:33:10,820 --> 01:33:15,570
+We'll say, hey, self, it's time that you change your name.
+
+771
+01:33:15,570 --> 01:33:28,350
+Whatever new name I gave you. But when I changed the dog's name, I need to give it the the new title I need to like say, Hey, your new title is this?
+
+772
+01:33:28,350 --> 01:33:33,330
+And then you need to set yourself to it. So let's take.
+
+773
+01:33:33,330 --> 01:33:45,070
+Let's take all of the dogs and change their titles and their titles to begin with where the number zero three ninety nine?
+
+774
+01:33:45,070 --> 01:33:49,710
+Right? So how can I now go in?
+
+775
+01:33:49,710 --> 01:34:00,780
+I'm just going to come of these out for now. How could I go in and say, Hey, dog, hey, hey dog, set your title right?
+
+776
+01:34:00,780 --> 01:34:11,550
+There it is. Set. Title. But I need to give you a new right, a new number because we adopted or we adopted, you know, a hundred dogs.
+
+777
+01:34:11,550 --> 01:34:16,590
+So I'm going to say, Hey dog, take your, Oh, this is interesting.
+
+778
+01:34:16,590 --> 01:34:23,520
+How do I get the dogs? How do I get the dog's current title right now?
+
+779
+01:34:23,520 --> 01:34:27,780
+How do I get? Do I have a method where I can get their title?
+
+780
+01:34:27,780 --> 01:34:39,160
+Or do I need to create one to get their title? I need to create another method get the title of the dog.
+
+781
+01:34:39,160 --> 01:34:43,720
+That's the name and send it back. There we go.
+
+782
+01:34:43,720 --> 01:34:49,520
+These are this is the proper way to do things. So I have one dog.
+
+783
+01:34:49,520 --> 01:34:55,180
+Class. I construct the dog. I can tell the dog to park.
+
+784
+01:34:55,180 --> 01:35:02,410
+I can tell the dog to run. I could tell the dog to go potty if I need to get the dog breed.
+
+785
+01:35:02,410 --> 01:35:09,100
+I have a getter or a word access or method to do that.
+
+786
+01:35:09,100 --> 01:35:16,660
+I have a way to get the dog's color away, to get the dog's title and a way to set the dog's title.
+
+787
+01:35:16,660 --> 01:35:23,980
+And now down here we're saying, Hey, take your current title, your name.
+
+788
+01:35:23,980 --> 01:35:30,040
+Let's just do this. So I need to say, Hey, dog, what's your current title?
+
+789
+01:35:30,040 --> 01:35:36,010
+And I'm just going to add to that the string.
+
+790
+01:35:36,010 --> 01:35:41,850
+Just just give me a second here. Adopted. Just that.
+
+791
+01:35:41,850 --> 01:35:45,270
+Just that right there, I'm going to say, Hey, dog,
+
+792
+01:35:45,270 --> 01:35:56,910
+set your title to get your current title and add to yourself the word adopted and then go to yourself and that's your new name.
+
+793
+01:35:56,910 --> 01:36:04,190
+And then right after I do that, I can say, Hey, dog. Get your title.
+
+794
+01:36:04,190 --> 01:36:10,550
+We have a method to get a dog's title. We do right here and I'm going to print it out.
+
+795
+01:36:10,550 --> 01:36:19,610
+And now we can see all of our dogs adopted. Hopefully.
+
+796
+01:36:19,610 --> 01:36:23,600
+Yeah. All right. See that. Get title not defined.
+
+797
+01:36:23,600 --> 01:36:30,670
+See, I make errors. So what I need to do here is say, Hey dog, get your title.
+
+798
+01:36:30,670 --> 01:36:36,040
+Hey, don't get your title. And now when I run this, they're all going to be adopted.
+
+799
+01:36:36,040 --> 01:36:42,550
+See that all 10 dogs got named, renamed from zero one two three four five.
+
+800
+01:36:42,550 --> 01:36:54,050
+They've all been had their names change to their old name zero plus the word adopted.
+
+801
+01:36:54,050 --> 01:36:58,250
+Now, I don't know about you, this is some hairy stuff.
+
+802
+01:36:58,250 --> 01:37:07,590
+This is, you know, we went from writing simple programs to creating object oriented code, and I'm just trying to leave it all there.
+
+803
+01:37:07,590 --> 01:37:14,630
+And don't worry, I'll give you all the code. And it's a little mind boggling and it's a little overwhelming.
+
+804
+01:37:14,630 --> 01:37:20,710
+And I'm not going to overwhelm you with another half hour of what we've done today.
+
+805
+01:37:20,710 --> 01:37:26,930
+We'll do more of it on Wednesday. So thoughts on classes, I need some feedback.
+
+806
+01:37:26,930 --> 01:37:35,200
+I mean, I would appreciate some feedback. I think this is very interesting.
+
+807
+01:37:35,200 --> 01:37:45,780
+OK. It is somebody else. Could I do?
+
+808
+01:37:45,780 --> 01:37:49,500
+Can I do one more 10 minute example on the cars for today?
+
+809
+01:37:49,500 --> 01:37:54,000
+Is that is that OK? Just to help you out a little bit more? That's fine with me.
+
+810
+01:37:54,000 --> 01:37:58,860
+I'm good with that. All right. Let's just do that. All right. Sorry for that.
+
+811
+01:37:58,860 --> 01:38:04,850
+I have to go get my flu shot. All right, here we go.
+
+812
+01:38:04,850 --> 01:38:12,640
+To demo is this Demo six picked up on a demo.
+
+813
+01:38:12,640 --> 01:38:17,960
+Seven that fine. All right. All right, here we go.
+
+814
+01:38:17,960 --> 01:38:25,750
+Ready. Here we go. We're going to create a class to represent cars and cars ready so class.
+
+815
+01:38:25,750 --> 01:38:33,430
+Car, there it is, class car, no parentheses. Now we need to create our constructor.
+
+816
+01:38:33,430 --> 01:38:40,130
+Dunder Anek Dunder Self will fill in the rest in a minute.
+
+817
+01:38:40,130 --> 01:38:46,320
+We define our main. And now let's get going.
+
+818
+01:38:46,320 --> 01:38:54,920
+So when we construct the car, what are some of the things that the properties that cars have?
+
+819
+01:38:54,920 --> 01:39:00,710
+Make. Model.
+
+820
+01:39:00,710 --> 01:39:12,950
+What else, what? What else other color you're?
+
+821
+01:39:12,950 --> 01:39:17,290
+Let's go with that. Just for now. There we go.
+
+822
+01:39:17,290 --> 01:39:24,550
+So now we need to take these parameters right, these properties and put them up here.
+
+823
+01:39:24,550 --> 01:39:29,660
+Make. Model. Color. Yeah.
+
+824
+01:39:29,660 --> 01:39:34,940
+So when we construct the new car, there we go. OK, so let's create a new car.
+
+825
+01:39:34,940 --> 01:39:41,150
+Let's just go back to the way we've been doing it. Here we go. Let's create and we have a car.
+
+826
+01:39:41,150 --> 01:39:50,700
+Give me a car. Just belt one out. What about us over 2010, can we?
+
+827
+01:39:50,700 --> 01:39:55,590
+All right. So let's Korea, is that your car? All right.
+
+828
+01:39:55,590 --> 01:40:10,300
+So let's create. Lynn Lindsay's car variable, there it is, Lindsay's car, and we're going to create a new car and we're going to say hi to.
+
+829
+01:40:10,300 --> 01:40:19,260
+Camry. What color is it, Lindsey Silver, Silver and what year 2010, right?
+
+830
+01:40:19,260 --> 01:40:28,560
+Yeah. All right. So I could create the year as a number right, just like that doesn't have to be a strength, right?
+
+831
+01:40:28,560 --> 01:40:35,100
+And. There's Lindsay's car, there's Lindsay's car, right?
+
+832
+01:40:35,100 --> 01:40:47,670
+So there it is, right? But I taught you in the last lesson that I need to create some accessories for getters to be able to properly,
+
+833
+01:40:47,670 --> 01:40:53,610
+professionally get info about each and every car that we create.
+
+834
+01:40:53,610 --> 01:40:59,870
+So could I define a new method, a new accessory or a new getter that says get?
+
+835
+01:40:59,870 --> 01:41:05,950
+Underscore make. And I'll say, hey.
+
+836
+01:41:05,950 --> 01:41:13,480
+Send back whatever your make is, and could I do the same for model color in the air?
+
+837
+01:41:13,480 --> 01:41:21,440
+Let me do this, by the way. This is just like one of the programing assignment problems.
+
+838
+01:41:21,440 --> 01:41:30,420
+Although. One more and I'll fix everything.
+
+839
+01:41:30,420 --> 01:41:39,340
+So we got we got we got make. We got model and model.
+
+840
+01:41:39,340 --> 01:41:44,050
+They turn the model. Give me back the model.
+
+841
+01:41:44,050 --> 01:41:50,090
+We got the color. We got the color.
+
+842
+01:41:50,090 --> 01:41:55,100
+We got the color, and then we got the year, we got the year.
+
+843
+01:41:55,100 --> 01:42:05,570
+So this is cool because now we have things built into our code that can look at any car we present itself and say, Hey, what's your model?
+
+844
+01:42:05,570 --> 01:42:11,900
+What's your color? What's your year? And we're not. We're not doing what I showed you earlier.
+
+845
+01:42:11,900 --> 01:42:19,970
+We're not doing this. We're not saying, Hey, Lindsay's car. Hey, Lindsay's car in the car?
+
+846
+01:42:19,970 --> 01:42:27,150
+We're not saying that anymore. OK, that's that's bad because we want.
+
+847
+01:42:27,150 --> 01:42:32,550
+We want to be able to not just say, hey, what property, what, what color are you?
+
+848
+01:42:32,550 --> 01:42:38,440
+We want programmatic ways to be told what the color is.
+
+849
+01:42:38,440 --> 01:42:43,890
+OK? Just it's it's a little bit more than I want to share with you.
+
+850
+01:42:43,890 --> 01:42:49,350
+But this this this works well. It can be really dangerous.
+
+851
+01:42:49,350 --> 01:42:55,270
+So what I do now, as I say, Hey, Lindsay's car get.
+
+852
+01:42:55,270 --> 01:42:59,380
+Was it color? Is that the one, the color? What did they have before I had color?
+
+853
+01:42:59,380 --> 01:43:05,890
+Yeah. So I said, call the method, get color and tell me what color Lindsay's car is.
+
+854
+01:43:05,890 --> 01:43:15,490
+And it's silver. Right? And now I can say, print out, Hey, Lindsay's car, get your year.
+
+855
+01:43:15,490 --> 01:43:20,500
+What year are you? Get year? And it should say.
+
+856
+01:43:20,500 --> 01:43:29,530
+2010. There it is. And now when I create another object, I'll just do another one.
+
+857
+01:43:29,530 --> 01:43:35,710
+OK. Gales are.
+
+858
+01:43:35,710 --> 01:43:40,520
+Car. Alexis, what is it?
+
+859
+01:43:40,520 --> 01:43:48,010
+Model three left the color black, yeah.
+
+860
+01:43:48,010 --> 01:43:52,830
+Twenty sixteen. Right. And now I could do the same thing.
+
+861
+01:43:52,830 --> 01:43:57,790
+Ford girls car, which is just another object, and I'll do it right here.
+
+862
+01:43:57,790 --> 01:44:09,500
+I'll say, hey, what is Gail's? Car color and what is.
+
+863
+01:44:09,500 --> 01:44:17,360
+Gail. Car year and.
+
+864
+01:44:17,360 --> 01:44:29,980
+Black 2016. So to wrap it up, we create a model, not not car model, but a way in software template.
+
+865
+01:44:29,980 --> 01:44:36,340
+Right. A class that describes when we create a new car, what properties it should have.
+
+866
+01:44:36,340 --> 01:44:45,810
+And then we create a list of methods right for that particular object car class.
+
+867
+01:44:45,810 --> 01:44:53,250
+That can like do things get the model, get the get the mate, get the model, get the color, get the year.
+
+868
+01:44:53,250 --> 01:45:05,460
+In fact, we can add a new one that says maybe got a paint job, maybe the car got painted that color.
+
+869
+01:45:05,460 --> 01:45:14,970
+Upset caller, this last thing, by the way, and then we'll say, hey, hey, self, say your color to that new color that we're going to tell you to.
+
+870
+01:45:14,970 --> 01:45:19,870
+So I need to go here now and say, Hey. That's a new color.
+
+871
+01:45:19,870 --> 01:45:27,070
+And now I'm going to change Gail color of her car right after here, I'm going to say, check this out.
+
+872
+01:45:27,070 --> 01:45:32,900
+I'm going to say Gail's car. That sent color.
+
+873
+01:45:32,900 --> 01:45:36,830
+And we're going to make it purple. All right.
+
+874
+01:45:36,830 --> 01:45:47,050
+And then we're going to print out Gail's car color after we change it, we'll just do it down here and you'll see that.
+
+875
+01:45:47,050 --> 01:45:59,640
+We're going to be changing our color. It was black, and now it's purple.
+
+876
+01:45:59,640 --> 01:46:05,340
+I see all the smoke coming from all over your heads right now because this stuff is.
+
+877
+01:46:05,340 --> 01:46:15,390
+But then this is like if you're taking JavaScript, if you're taking HP, we're going to be using this concept over and over and over again.
+
+878
+01:46:15,390 --> 01:46:21,120
+A web page is actually an object. If you think about it.
+
+879
+01:46:21,120 --> 01:46:25,410
+It's this collection of HTML elements.
+
+880
+01:46:25,410 --> 01:46:41,730
+Some of them will have classes. I ds will have content between tags and everything in JavaScript isn't object in on the web page,
+
+881
+01:46:41,730 --> 01:46:46,950
+and we'll be using stuff like this to go get information about a paragraph.
+
+882
+01:46:46,950 --> 01:47:01,460
+Text about an image, so bear some context for you all the time at the tone is eleven, fifty nine and 17 seconds to.
+
+883
+01:47:01,460 --> 01:47:18,280
+Parting thoughts, questions, concerns. And look, and looking at you all.
+
+884
+01:47:18,280 --> 01:47:25,030
+That was not a single question in chat today. That does means everybody is toast.
+
+885
+01:47:25,030 --> 01:47:29,680
+So I know I know for a fact that kids watch our show.
+
+886
+01:47:29,680 --> 01:47:34,810
+I think I'm the only one to ask the question today.
+
+887
+01:47:34,810 --> 01:47:38,860
+There's something now, Jack Jerry says crickets.
+
+888
+01:47:38,860 --> 01:47:44,170
+Yeah, you know, remote zone. Tough stuff, man. Totally different in a physical classroom, right?
+
+889
+01:47:44,170 --> 01:47:49,750
+We'd be eating pizza right now. So tough concept.
+
+890
+01:47:49,750 --> 01:47:56,410
+It took me a long time to understand getting back to what Joshua mentioned before,
+
+891
+01:47:56,410 --> 01:48:03,340
+and it's very normal for new programmers like yourselves right to do things the way we used to do.
+
+892
+01:48:03,340 --> 01:48:11,090
+But once you understand how to represent. Something with.
+
+893
+01:48:11,090 --> 01:48:21,540
+Instance variables. With methods, right, getters and setters accesses accessories and mutates.
+
+894
+01:48:21,540 --> 01:48:27,240
+It your life as a software person can become you can step up your game a lot.
+
+895
+01:48:27,240 --> 01:48:33,160
+So one more thing in the chat, Lindsey gives a smile. OK.
+
+896
+01:48:33,160 --> 01:48:45,100
+So on Wednesday, we'll do a little bit more and then we'll I've created a game, a simple game using players that have different weapons,
+
+897
+01:48:45,100 --> 01:48:52,190
+and those weapons have different weights like a sword versus a bow versus a hammer.
+
+898
+01:48:52,190 --> 01:48:54,460
+They have all different weights.
+
+899
+01:48:54,460 --> 01:49:08,560
+So how can we write a game with, I don't know, a thousand players randomly battling one another, pulling out their weapons, having a battle.
+
+900
+01:49:08,560 --> 01:49:14,460
+One of them was going to die, and then how do we eventually get down to one player left?
+
+901
+01:49:14,460 --> 01:49:23,160
+Sounds like a big while, Luke, to me, sounds like a list of player objects and sounds like some decision logic.
+
+902
+01:49:23,160 --> 01:49:29,590
+And it sounds like some fun. So. I'm going to turn off the recorder.
+
+903
+01:49:29,590 --> 01:49:41,920
+Oh, by the way, there is a you should see in canvas now and something in Module nine to be able to leave feedback for for me in this course.
+
+904
+01:49:41,920 --> 01:49:48,730
+It's something that they do to me every quarter and I must say do to me, but I'm on this.
+
+905
+01:49:48,730 --> 01:49:56,830
+I'm on this practice. This thing at school where it's called tenure track, where they teach you how to teach right.
+
+906
+01:49:56,830 --> 01:50:04,360
+And that feedback gets seen by it gets seen by me like way after the course is over,
+
+907
+01:50:04,360 --> 01:50:09,400
+just so you know, it'll have no reflection on your grade will be, Oh Jerry, give me bad feedback.
+
+908
+01:50:09,400 --> 01:50:15,190
+But it's a way to to give the college information about me. The course the good, bad and ugly.
+
+909
+01:50:15,190 --> 01:50:18,910
+And a lot of you have done this before and you've done it for other instructors.
+
+910
+01:50:18,910 --> 01:50:29,150
+So it's not it's not required, but I highly encourage you to do it so.
+
+911
+01:50:29,150 --> 01:50:40,040
+When I loaded into Kansas today. Well, this might be odd, but it said I had a we acquired a weevil here,
+
+912
+01:50:40,040 --> 01:50:48,490
+weevil to do on you and then my English teacher, it was required and then I couldn't get out of it.
+
+913
+01:50:48,490 --> 01:50:54,370
+Oh, really? Oh, God, my belly button that said do later.
+
+914
+01:50:54,370 --> 01:51:02,080
+It did give me that button like so quickly before class with me almost late.
+
+915
+01:51:02,080 --> 01:51:09,130
+Oh all right. Well, I'll let. I'll let the people that handle that, I'll let them know.
+
+916
+01:51:09,130 --> 01:51:16,450
+But again, it's not required, but it's very, very helpful and I get to go over them.
+
+917
+01:51:16,450 --> 01:51:22,630
+They're all anonymous, and I'm really thankful for any type of feedback which you already know.
+
+918
+01:51:22,630 --> 01:51:29,290
+So with that, I'm not going to give me any more. I'm going to shut up and have a good day and I'll see on Wednesday.
+
+919
+01:51:29,290 --> 01:51:32,704
+You'll also have a good day to you and.
+

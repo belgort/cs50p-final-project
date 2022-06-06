@@ -1,0 +1,1840 @@
+Transcript of the Recording
+
+Now that Gerry is here telling us on Jerry Jones, we hit the record button.
+
+So I wanted to do. Yeah, I just wanted to share something totally unrelated to code, right?
+
+But you know, you're all sitting on on on Zoom, right?
+
+And I'm sitting here and you see, you know, me coding, talking, whatever it may be, but I wanted to share with you how blown up my screen is.
+
+Can you see that? Yeah, so that's that's me teaching to you.
+
+But right when you when you see it from your end, kind of here, let's get rid of it.
+
+Come on this. That's what you see. All right.
+
+So I just thought I'd share that because Zoom, right, does a really good job of allowing me to zoom in my screen, right?
+
+And allow you to see, like I said, just the normal view.
+
+So, yeah, and that's that's why you never want to allow me to drive a car, right?
+
+Because I I'm like, I don't know. There used to be a kids cartoon called Mister Mr Magoo.
+
+I don't know that it remembers that, but he he was a character that drove around and he couldn't see.
+
+So thankfully, my wife read it. Yeah, I remember this and go, Yeah.
+
+So yeah, thankfully, my wife and, you know, friends, you know, drive, drive me around.
+
+All right. So let's get started. Let's get started. We're in.
+
+We're nearing the end. This is the last module. This is like the last like full module on on something called classes, the finding classes,
+
+which you've already done using the graphics library, but you didn't know much about it other than, Hey, here's I want to.
+
+I want a graphics window. I want to circle. I want all all these things.
+
+But how can we like develop those types of things on our on our own right?
+
+So that's what this module is all about. This is the last problem set.
+
+This is the last learning guide. Clear. This is the last written quiz.
+
+And next Monday. I don't think we'll have class because it's Thanksgiving week.
+
+There won't be any need on. Some of you wanted to take the Microsoft Python certification.
+
+So there is a schedule and canvas under the Microsoft MTA section, and there's a couple of things in there that's wanted to share with you.
+
+OK? Number one is you need to schedule your exam time with me, either from Monday, December six or Friday, December 10th.
+
+And some of you have done that already, and I appreciate that. I recommend that you take the exam on Monday this way if you don't pass it.
+
+And I've failed quite a few of these in my time, a fewer.
+
+So you'll be able to retake it on Friday if you don't pass it.
+
+All right. Just say it. So we give you two opportunities to take it.
+
+So here is the information right here. You all should have access to it.
+
+I want you to schedule your your exam with me and bye bye.
+
+If you have an inkling to take any of these other Microsoft certification exams,
+
+there is one on C-sharp and I know we have a c sharp programmer in the class here.
+
+So just note that not only can you take Python, but you can schedule all these others to and I'd be happy to provide them to you.
+
+Practice them for you in person a class on either Monday, December six or Friday, December 10.
+
+No cost to you. Just just know that these are free.
+
+There is no cost to you. So what you need to do is you need to like, like email me and say, Hey Bruce,
+
+I want to schedule h html on Monday night and I want to schedule a python at one o'clock, you know, just just like that.
+
+All right, here's the instructions. It's all right here, right?
+
+And the next thing you want to do is I've some of you may have used this before, but we have access to practice tests.
+
+It's called G Metrics. They're the name of the company that makes it.
+
+So if you go through all these steps here, right,
+
+and you enter this magical code right here and select the Microsoft and then Python or whatever exam you want to study for,
+
+you'll be able to get to practice exams so you can do these practice exams and in practice mode where you get to see the answer after each question.
+
+Or you can go in a full on simulation mode where it's timed right and and stuff like that, right?
+
+So again, I provide you with the resources. Usually everyone who takes us passes it.
+
+Is it 100 percent of the material that I taught? You know, is it 90 percent?
+
+Yeah. Is the other 10 percent of the knowledge that you would need to know in some of these key metrics practice exams?
+
+Heck, yeah. All right. So that's why everyone usually passed it.
+
+And just so, you know, write these things, and I think you all know the story, right?
+
+If you go into. Go back to like the beginning of time here with module zero.
+
+I think I had like information about me and I've taken.
+
+All these various Microsoft certifications over time since I started it, Clark, I mean, I should know all this stuff because I teach a lot of it,
+
+but the ones that I did fail are ones that I don't have much experience with, which is like the Java programing language.
+
+That's the one I that kicked my butt a lot. So I had to learn Java, you know, over two months, and I finally, I finally passed it.
+
+And when you have these things, they also go on your LinkedIn and you know, and you can put them on your portfolio or wherever it may be.
+
+And I've said this before, every day I'll get a job request through LinkedIn for especially Python because it's such an in-demand language right now.
+
+And the other thing too, is LinkedIn has a little certification exam that you can take to prove your skills.
+
+And it was hard. Yeah, I wouldn't go take it right away because you can only take it twice within a six months time and after that, you have to wait.
+
+All right. So that's it on certifications, you know, are they required?
+
+No. Are they helpful? Yes. Are they good to have?
+
+Yeah. All right. Any questions before we get started?
+
+Any, any thing, anyone have any questions that I can answer.
+
+Nothing in the chat. All right. And for those of you who did send me the code words for the announcement that
+
+came out yesterday about watching that video or those videos before class?
+
+Thanks. Thanks for doing that. I think I got for people who replied back, So cool.
+
+And let's get started. If there's no questions, so let's get started and you can all see my screen right?
+
+Just checking, right? Yeah, you can see it. All right. Thanks, Brandon.
+
+So let's start off. Let's start off. Let me just call it the demo.
+
+Demo Dash one dot pi. OK, just like that. And let's.
+
+Pretend, well, let's pretend this is kind of those of you who watch the video, this is kind of what we're going to do.
+
+Let's pretend I keep saying it. Let's create some code where we can model a physical dye, a dye that you use for playing board games,
+
+whether it's a six sided dye or a hundreds thousands sided dye or a, you know, a 20 sided dye.
+
+I don't know what the gamers. I know my son.
+
+My son has this big dye with all. I don't know what game it is. Maybe you can tell me,
+
+but let's say we wanted to create a template where we could create a dye and then maybe we can create 10000 dye and we could roll them.
+
+We could do anything we wanted to do with the dye.
+
+Typically, it's you roll the dye, and that's kind of about it, right?
+
+So how would we go about creating a piece of software?
+
+Something called a class, a class or a template to model a multi-sided DI.
+
+OK, so let's do it. We're going to learn a new keyword in Python.
+
+And the key word is class. Class Class C L a ss all lowercase.
+
+And now you're going. Do you remember with the graphics library when you had like circle, it was uppercase, right?
+
+When you had graph, when it was uppercase, right when you had rectangle or polygon?
+
+Right. They all started with a capital letter. And that's when you define a class A template you or a blueprint.
+
+Right? You use a capital letter. So let's create a a class name called DI.
+
+No parentheses. None of that. And just a colon.
+
+Just like that. OK. Just like that.
+
+So we're going to create a template, a cookie cutter that we're going to use to to fabricate die.
+
+This right in software in Python. OK, so here we go.
+
+I hit enter and it's like, it's like, All right.
+
+What goes inside of here, what goes inside of our class?
+
+Well, a whole bunch of things, right? A whole bunch of things.
+
+But when you created a graphics window, when you created a circle and you created a rectangle, a polygon.
+
+Any of these things? As soon as you created them?
+
+Right. Those are what we call.
+
+We instantiated them, right? We we we fabricated that right.
+
+So with a dye right with a dye?
+
+Does anyone want to tell me when we say, go to make a dye, make believe we have a factory in Vancouver here and we may die, right?
+
+So what are some properties of a dye?
+
+Anyone want to just belt some out to me?
+
+What are some things that when I look at it, dye, right?
+
+What can you describe some of its properties, right? I have brown hair looks gray, right?
+
+I'm five foot nine hundred ninety five pounds.
+
+Those are some properties right about Bruce, right? So what are some properties of a dye?
+
+Anybody. How many sides? It has number of sides, Common says.
+
+I'll I'll take that. So let me just do this.
+
+Uh, properties properties. OK, so the first thing is, no, actually, I'm not going to use my triple two three doing.
+
+Oops. Number of side. I have a plug in that extension that I need to turn off.
+
+Please hold. Please hold. I just turn this on doc.
+
+Pi. Can anyone see Python? Doc stream, yeah, I want to turn this off, although I could disable.
+
+Sorry about that reload. OK, so here we go.
+
+Number of signs. Properties, OK, what else, what else?
+
+Collins, right? Number of sites.
+
+Let's say you go to Fred Meyer and you buy or you go to the bat cave and you buy some dye and they're in a package, right?
+
+What do you see? What do you see when you look at that, that set of dye?
+
+What do you see anybody the same shape? OK, well, we'll leave that for now.
+
+OK, shape, Jojo says. What else? OK, what about the bears?
+
+Usually? OK, so they're packaged in pairs.
+
+But tell me about one day, Joshua. Tell me about one guy. Tell me about one guy when you look at it, right?
+
+If you know, how about six sizes depending on the deal you're looking at?
+
+Yes, that's right. So that's what Colin said. Number of sides.
+
+Let's say you look at the shelf and you see a package of dye, right?
+
+When you look at that package of dye, right, you'll notice that they have a certain number of sides.
+
+But what else do you see? What else do you see? No, that numbers right.
+
+So but those numbers, Gerri correspond to the site or when you look, does each dye, especially when, like when you roll a dye,
+
+how many values kind of dye have like during a game, like when you roll the dice,
+
+do you look at the side of the dye or do you look at the side facing up?
+
+Side face it, when you the side facing off and facing up is labeled a no.
+
+So what would you call that? What would you call that that that?
+
+Would it be the the the value? What do you call like when I rolled of five, right?
+
+If I roll of five, what do you call that? Five? Can we call it value is a technical term for it?
+
+We could call it a value because that's that's what you get. All right.
+
+So we'll call it a value. I'm going to just not use the shape pronounce just because I'll take it a little while.
+
+But is it fair to say that the dye that we need to fabricate has a certain number of sides and it's going to have a value, right?
+
+Whether it's what the value is in the package, when Jerry is looking at it on the shelf,
+
+or it's when Ben is using it to play a game with with his friends, right?
+
+We could also add in here color. Right? The dye has a certain color, right?
+
+Maybe. I don't know. I don't think that's necessary right now. Let's just stick with we make dye that have a certain number of sides.
+
+And when we either package them in, you know,
+
+a box or whatever that there is either a value showing on the dye or when Ben uses them in his game, they they have a value.
+
+So those two things are the same.
+
+So how do we create in the software a dye that has, I don't know, six sides will go with four now and has a default value.
+
+Let's just say we have that single dot when we package our dye in our factory in Vancouver,
+
+all the dye are placed in the packaging the same way, with the number one showing by default.
+
+OK. Let's just go with with that for now. So again, how do we construct this dye in software?
+
+Well, there is something we need to do.
+
+And you remember from last week when we created these functions,
+
+we are going to create a special type of function called a constructor constructor function,
+
+which gets run ran when we create a new dye in our software.
+
+OK. So what we do is we create a special name called Double actually what this is called.
+
+Let me just do this right here. And then just like that.
+
+Now this is weird, OK? This is really weird. It's a reserve word in Python, and it it's two underscores the word init,
+
+which stands for initialize and then two more underscores and then a set of parentheses I'll call in.
+
+OK. And we usually say for these double underscore, as we'll say, Dunder Dundar, not Dunder Mifflin Dunder double underscore.
+
+And what this says is when you create, when you construct, when you initialize a new dye, we need to do the following.
+
+OK, so check it out. We put this word in here called self.
+
+And remember, we're dealing with objects. They have the ability to to know things about them, and they can also do things.
+
+So our dye, when we create it, it's going to say, Hey, self.
+
+OK, what's your value? What what's your value and what's your number of sites?
+
+So now we're going to say, Hey, self. What's your value and let's set all of our die to have a default value of one?
+
+OK. Now again, I know some of this is highly, you know, just way out in left field right now, but just stick with me.
+
+So by default, when we create a new die or a new object or a new template, right, which we're doing here or by a class may just fix us up here.
+
+We say we create the class name, right?
+
+I called it die uppercase.
+
+We create our constructor function, constructor function and this get run as soon as we create a new die, which we haven't done yet.
+
+We're just creating the template for what happens when we create a new die, just like we did with a new graph when a new circle, a new rectangle.
+
+It had a constructor which said, Hey, when when you let me carry on.
+
+So when we create the die, we're setting itself to have a value one and we're setting the number of sides to six.
+
+We're going to stick with a six sided die. OK, so believe it or not, believe it or not,
+
+what we've done here is we have created a template to make six sided die that have a default value of one.
+
+OK, now. Just take that in for a second.
+
+Okay, take that in, and it'll make a lot more sense as soon as I construct my first day.
+
+Can I check it? Here we go.
+
+Here we go. Let's just call it die one variable name.
+
+Die one. Just like you did with Circle, you created Circle one, Circle two or i1 I two, right?
+
+I just call them create a variable called die one. And I said, Hey, die one.
+
+I want you to create a new die. Just like that. Just create a new die, just like we did with graph one and other things.
+
+There is no parameters yet for our die.
+
+We're just if you create a die, just like I did here, we're saying, Hey, hey, hey, class,
+
+create a new die that has a default value of one and six sides and store it in this variable called die one by one.
+
+Now everyone's like, All right, if I print out the type of die one, do you think it's going to be a a string?
+
+Be an integer or c an object on a integer B string C object?
+
+What do you think? Line 13 is going to print out.
+
+Take a there's no wrong guesses here. Somebody take a guess. Object, I mean, string, an integer string or object.
+
+I think in strength. So, Jojo, to your point.
+
+We have won a default value of one.
+
+That's that's that little snake eyes staring at us in on the dye and the dye has six sides.
+
+So could we represent both these bits of information as a string?
+
+Or is it like when we created a circle, the circle had a center point and the circle had a radius,
+
+so which was an object, so integer string or object?
+
+You're going to stick with your answer, Joshua, what do you want to change it? You want to buy a vowel?
+
+Everybody I didn't think about. All right.
+
+So when we created a circle was a circle, an integer, a string or an object.
+
+And I just want to know it's an object, right? It's an object, so we're doing the same thing.
+
+We've created our own object that we made right here, right?
+
+And if I print out, it's tight. It says, in fact, that it is made.
+
+Of a die, so this believe it or not, this is telling you that this variable die one is an object and in fact it is.
+
+It is a die. It is a die, which is which is an object.
+
+It's not a string. It's not an integer, right?
+
+It's an object. Because Jojo, check it out.
+
+I can then say print die one dot, just like we did with the graphics library.
+
+And look what we get here size and value. So let's just do sides.
+
+And now we're going to print out right sides. Sides is a prop.
+
+Remember when we did like? I'm trying to remember an example where we just used a property like this, but let me just run it so you can see it.
+
+And now it's telling me that that dye that we created has six signs that Dye one has six sides and that dye one has a value its current value looks.
+
+I can't type today. Its value is going to be.
+
+One. Okay, now we've created a model of a die in software, now we've created one die with it for our program to use.
+
+But if we want to create a second, die a second, die here, I'm just going to copy this code, copy this code.
+
+Put it here and change die one to die to.
+
+Right, I mean, just put a print here. Die, too.
+
+And I'll print. A. A print die one.
+
+So you can see that we've created. Today.
+
+Although one second, I think they did it. Here it is.
+
+So we've created die one right here. Let me show me sorry, this is a little theaters die one.
+
+It's made of a die. It has six sides. The current value is one in the package.
+
+Then we have a die to, which is made for a die, has six sides and has a face value of one.
+
+So using not really take one. So using this one set of code right here, using this one set of code, I've created two dice.
+
+Two dice, right? Two dice. Two dice.
+
+I can go on and on and I can create other die using this, but that's not going to be any fun.
+
+And when we do things like this, we're having to create variables for each one of those die, which is probably not a good thing.
+
+You learned a few weeks ago about list and how a list can be like a bag of dye.
+
+It can have multiple dice inside of it. All right.
+
+So let's just put this aside for now and let me create another demo that's going to expand on this die a little bit.
+
+So I'm going to do control and I'm going to paste in the code.
+
+I'm going to save it. I'm going to call it Demo Dash to.
+
+Don't. I think. Demo Test two PI.
+
+And there's my die. There it is. There is my template to make die.
+
+Now this is all well and good. If we just want to be able to create like one die or, you know, a million die.
+
+Okay. So what we want to be able to do is to be able to give our guy something that a real die would have.
+
+And when you're playing a game, what's the one thing you do with a die?
+
+What do you do with it, you? Roll it, you roll it right.
+
+So how do we give our die that we're creating?
+
+Thanks, Robert. By the way, how do we create a method or a way that our die can do something?
+
+And in this case, it's how could we make it so we can roll it via software and by rolling it?
+
+What is the one property of that die that's going to change?
+
+It's not going to change and morph into having more or less sides.
+
+But what's going to be the one thing that changes when after we roll a die anybody?
+
+What's going to be under my eyes? Yeah, but what what?
+
+That but what what property of that guy gets randomized? What what property on line three or four of my code gets randomized?
+
+Which property there? Besides the assures, so when I roll the die, the number of side change or does the value change Jojo?
+
+But I guess like the side that you're meeting. So yeah, the the value, right?
+
+That's the the the number of facing up, right?
+
+So we're playing. Yeah, yeah, I gotcha.
+
+So what we want to do is we want to define a new method called roll.
+
+Let's just call it roll, roll roll. And then we're going to say, Hey, self, hey di you, I'm talking to you.
+
+Roll yourself, right? And then I'm going to say, like Jojo said, we need to be able to now generate a random number, right?
+
+Because Ben is playing this game and he's writing a software game and he rolls that AI, right?
+
+So he's going to say, Hey, software guy that we haven't created in this demo yet.
+
+I need you to generate a random number between one and six, because that's the number of sites that you have.
+
+So here I go. Ready. I'm going to say, Hey, self.
+
+I need you to set your value to. Some random number between one and six.
+
+So anyone does anyone realize what functionality we need to bring into our code at this point to help us generate a random number, I hear somebody.
+
+We need to import random. Yes, Ben.
+
+So Ben is like, Hey, Bruce from the random library from random import rand.
+
+Right?
+
+Because Rand gives us and we've used this over and over again and write a set of random integers, random whole numbers inclusively between two things.
+
+So could we not write do this?
+
+Could we say Hey rand and generate a number, generate a number from one to one comma one to the number of sides that this particular guy has?
+
+I didn't order code six because I'm saying, Hey di, look at yourself.
+
+How many sides do you have? How many sides you have?
+
+Look at yourself and the diocese. Oh, I got six.
+
+So what it's going to do now is going to generate a random number between one and six and tell itself that that is its new value.
+
+Just just like that. OK. Just like that. So what I can do in my code now, I'm out, didn't it all the way?
+
+I have my di template and my dye template has two properties, right?
+
+These are properties. Let me label these properties right.
+
+And this down here is a method, right? Remember the when we took an object in the graphics library and we told it to draw itself, draw is a method.
+
+Notice the method. Start with lowercase letters, right?
+
+The class name starts with a capital letter, and we're not returning anything.
+
+We're just saying, Hey, look at yourself, change the value of yourself from one to the number of sides that you have.
+
+So let's go create our die one again. We're going to say die one equals create a new die, just create a new day.
+
+And then we're going to say, Hey, die one actually print out, Hey, die one.
+
+Print out the number of sides. Print out your value.
+
+Print out your value. Tell me what your value is. And by default, that value is one because we haven't told our die to roll itself in code yet.
+
+We just fabricated instantiated a new die.
+
+So here it is, right down here. It's one we have one as the default value showing in our die when we created it.
+
+So now if I say, Hey, die one. Hey, day one, I want you to take yourself and role yourself role as a method role is something that a guy can do.
+
+It's not a prop., it's something that a guy can do.
+
+And now if I just copy this line of code again, if I copy this line of code again,
+
+hey, day one, what is your value after we asked you to roll yourself ready?
+
+Let me run it. Do I did I point out there it is.
+
+So one in one? Let me run it again. One in six.
+
+One in five. One in four. One in six. One in five. One in two.
+
+One and one one. And two one in five one in three six.
+
+So do you see how we were able to create in the software?
+
+A cookie cutter template to create a day when we created it, right?
+
+This is a code that gets run when we do this line.
+
+12. It gives itself a default value of one and six sides, and then we're asking our dye that we created to roll itself.
+
+And we're setting its value that it knows it is, this is what we call an instance variable.
+
+It kind of in this instance where we created Die One, it knows what value it's set to and that is one in fixed.
+
+OK, but when we roll it, we're changing that value to be some number between one and the number of sides.
+
+That particular dye has. What are you thinking about classes so far?
+
+What what kind of questions are coming to mind kind of abstract?
+
+Is this a very abstract concept? A little bit.
+
+And then like. Well, I. Just because you're putting everything into one like what we were doing before, but now it's all into one group.
+
+A group. So what Robert's referring to is, Bruce, you have these functions here.
+
+Right? One of them has this weird name called Thunder and Thunder, and this other one is a regular one that you kind of recognize.
+
+But they're all grouped together under this.
+
+Class that is known as die. Right?
+
+So, Robert? Yes, to that point.
+
+A class is defined of a bunch of functions because again, going back to the graphics library when you created a new rectangle,
+
+you could set it fill, you could set its outline, you could clone it.
+
+There's a whole bunch of things that a rectangle was able to do,
+
+and what we're doing is we're just mimicking that whole concept we learned with objects and the graphics library.
+
+By creating our own objects that have properties right and are able to do what we need a thing to do and will do way more of these other than to die.
+
+But Robert, does that help a little bit clarifying what's going on?
+
+Yeah, it makes sense. But then like around like what?
+
+I guess Line 11, would you normally put that in the main two? Yeah.
+
+So Ben was Ben was on my shoulder and he's like, Bruce, you should really put that code in the main here.
+
+Let me just do that. Is that better?
+
+And that makes sense now. Yeah. I'm sorry.
+
+Yeah. Yeah. I'm sorry about that. So and on that we were to change the value and the sides.
+
+Would we have to create a new class? No.
+
+So all right. So right now, our class is pretty boring, right?
+
+It only creates six sided die with a default value of one.
+
+Right? Now what if Ben's like, I want a 20 sided die?
+
+OK, ready. Let me run the code. Let me run the code, and the default value is one, and when we roll it, it gets 14.
+
+Two, 10, 14, C, so by just changing the template.
+
+Let's say we want the default value now to be. 20.
+
+Right when you when we manufacture or die and we box them up and we put them all together,
+
+the default face that showing is the number 20 right or twenty two.
+
+I don't know what the multi-sided dial look like, but now see how the default value of our dye is always 20.
+
+And it's randomly generating a number between one and 20 when we roll the dye.
+
+OK, Joshua are thinking about like, if we create more dye, well, we're going to get what I want by two.
+
+Yeah, we're going to create. We're going to create a bag of dye, right?
+
+So not that this has this is not a bag of dye, it's a bag of coins, right?
+
+So I know you have like these bags where you put your dye in, right?
+
+So how could we like write software that creates this bag of dye and a whole bunch of dye inside of it?
+
+Right? And that's what I'm going to show you next. Before we before we carry on.
+
+All right. So again, let me just go back to one here.
+
+And even if we just make this a one sided dye, you can see here.
+
+Let the default value is always one, right? The default value is always one.
+
+And then when we roll it, it gets a new value between one and the number of sides that are available to that die.
+
+And if I do this just so you can see loss here, I'll say.
+
+Original. Value. And then I'll put here.
+
+After rolled. Now when I run it.
+
+One and then five. One an ABC.
+
+OK, now let me just let me there's a couple more things we need to do here.
+
+This is great. We've created one die. How boring, right?
+
+So the question becomes right, how can we create is anyone?
+
+Can gamers who use die? How many does a game typically have one die?
+
+Or sometimes you have multiple die? That sometimes has multiple die.
+
+All right. So how many die would you have? Well, and one of the games they have, like one of the main guys that we have is like spies.
+
+OK, so let's go with say, Lindsay has been hired by a local company to write a pilot program,
+
+and she needs to be able to simulate a game that has a bag that contains five dye.
+
+And how many sides do those dye have? I'm just curious.
+
+Is excited, 20 excited. Well, like for each star, I would be like six to seven on that side.
+
+OK, let's just go with this that we need to create five die.
+
+And we need to be able to, like, take those die in my hand,
+
+shake my hand and then roll the die out on to the table and I can then read all of their their values.
+
+Okay, so check this out. Actually, I'm going to go on the Demo three.
+
+I'm just going to take all this code and copy it into Demo three, just so I don't mess too much stuff up.
+
+Let me go. Demo three here. Demo three Dog Pie.
+
+Paste in that code, right? And now I'm going to operate a little bit.
+
+Okay. So I'm not I'm just going to cut this out for now, and let's create a variable called bag of.
+
+Dice a bag of dice, bag of dice.
+
+And if you remember in coding, when we want to put multiple things into a single variable, we create an empty list,
+
+an empty list and you saw me do this when we learned about lists, how I could take,
+
+you know, a bunch of circles and put the circles into a list and then draw those circles.
+
+So here is my my empty bag of dye.
+
+There's nothing in here right now. All right. So how can we programmatically in software create a new dye?
+
+And add it and place it into our bag of dice.
+
+OK, so let's do it. How do we do something five times what the programing concept?
+
+You're sick and tired of hearing me say, What do we do when we need to do something five times?
+
+Loop it. Yeah, loop it counted loop for Iron Range of five.
+
+We want to put five dye into our bag, so what we can now do is we can say, Hey, bag of dice, I want you to append to you.
+
+A new die just like that. That's weird. So online, 15, I'm saying, hey, bag of dice,
+
+I want you to append because that's how we glue and place new things into our bag of tie into our list and then instead of a string and integer,
+
+I'm just saying, Hey, create a new dye just like that. Just die open, close parentheses, just like that.
+
+And now, if I print out just at the end here, if I say print out what is the length of our bag of dice,
+
+which is going to tell us how many things are in that list, if I run this now, I should have five.
+
+Die in that back. Okay, there they are. I can't I'm only pointing out the length right now.
+
+I haven't even rolled the dice or done anything yet.
+
+But I want to just break this down for you just a little bit easier because I think when we create a new die and we place it into this bad egg,
+
+I'm thinking That's. Well, let me let me let me see if I can explain.
+
+So what I'm going to do here is it's going to say lowercase dye equals dye just like that.
+
+OK. There it is. There it is. I created a variable called dye lowercase.
+
+Die, and I said, create a new die and hold on to it as a bat, as a variable called die,
+
+and then what I'm going to do is I'm going to say, Hey, die, roll yourself before we stick you in the back, hey, die, roll yourself.
+
+And then we're just going to add into the bag. That roll die.
+
+OK. So instead of having a bag of dye that just has all the values the same because when I stick a guy in here,
+
+it's going to it's going to roll around, right? It's just it's not going to be one.
+
+So before we stick that guy into the back, we're going to roll it.
+
+We could roll it a thousand times if we wanted to using a loop.
+
+But here's what I'm going to create a dye from the dye class.
+
+Roll the dye. Append the dye into the list just like that.
+
+OK, so here's what I printed out the length print out the number of dye objects in the bag just like that.
+
+But now how do I see the value?
+
+Of each guy, how do I see the value of each day?
+
+This variable contains a list of the five die.
+
+So being what we've learned in this class, could I say for every I'll just call it for every.
+
+Yeah, we'll call it die in the bag of dice for every.
+
+Every guy that's in that bag of dice, could I say print out died dot value?
+
+Can I say, Hey, hey, Don, what's your current value? And if I run this right and I'll go back and comment and the second if I run this.
+
+You can see here now we have five, five five four one five.
+
+If I create another bag of dye. Five, six, three, six, four, five five.
+
+We're getting all these different value of as we're manufacturing, you know, bags of dice on our assembly line.
+
+They're they're coming out with all these five dye because that's how many Lindsey said we needed in each bag.
+
+But if we dumped out the dove from each one?
+
+There they are there the the dye coming out differently each time.
+
+And if we needed to create a set of dye that has like a bag of dye or a package that contains 100 dyes, we just change our loop to 100.
+
+And now we get 100 dye of all different rolled values, a bag of dyes or packaged dyes whenever we want to call it.
+
+Just like just like that. So let me let me break this down to iterate.
+
+Loop right through each item and list.
+
+Print out objects, value property.
+
+So here is our completed beginner way to create.
+
+A dye that contains six sides by default, the value of that dye is one.
+
+We created a list, an empty list. Create empty list.
+
+Loop one 100 times. And there you go.
+
+We create a new dye. We roll that dye.
+
+We then print out the length and then we iterate through the bag of dice one guy at a time and we print out its value.
+
+How many different variable names did we create?
+
+For the die. None. I mean, one, we only have this bag of dice.
+
+So remember that the purpose of the list is to hold multiple things.
+
+In this case, the things are not integers, they're not strings, but they're die.
+
+And the two things that each guy has is a face value.
+
+And a set number of sides. So this is kind of neat until right until.
+
+Nathan, our boss says, you know, this is all well and good, we're able to create new dye, but I don't always want six sided die.
+
+I may want a 20 sided die or a four sided die or a million sided right.
+
+Okay, so we're going to be looking how to handle these types of things, because right now everything is hardcoded right here.
+
+It's hard coded. We're saying when you instantiate a new dye, when you create a new dye one, and it's exciting any and all times.
+
+Okay? You hear me say this each class, we don't write a lot of code, right?
+
+But it's these concepts. And if you're going into web development, when we start talking to databases,
+
+you know we're going to use this same type of concept where we connect to a database and then we're going to get a whole bunch of maybe.
+
+You know, social media post back and then we're going to, you know, be able to do things with those social media posts, right?
+
+Get the count, the count of likes that the number of comments, right?
+
+So a post right is an object.
+
+Then it contains information about the number of likes, the number of comments, right?
+
+Whether it has images and we can it, we can do things with that particular, you know, social media post.
+
+But that's what we'll save that for another day. So let's move on now and just step in through here and we're going to copy all this code again.
+
+Copy all this code again. But we are now going to create a code.
+
+That's going to not have a hard coded.
+
+Face value or a hard coded number of sides?
+
+Okay, so how do we do this?
+
+How do we let me just check the time here? 10:53. How do we how do we how do we do this?
+
+So what we do is when we create or instantiate a new dye.
+
+We're going to add some parameters after herself, we're going to say, Hey,
+
+I want you to have a default value of something and I want you to have a certain number of sides because when we create this new dye,
+
+we are going to specify what we want the face value to be and the number of sites.
+
+So what we're going to do here now is we're going to change this from a one to that variable that we're passing in called value.
+
+And we're going to change this to the number of sides you want me to manufacture or instantiate or create that dye with.
+
+So now you see that when we construct a new dye, it's got this self parameter here that always has to be there.
+
+We're not going to do anything, but it's just a thing of the language that says this parameter needs to say,
+
+Hey, self, look at yourself in the mirror. All right, cool. I know who I am.
+
+And then it's going to get a value. And the number of sites?
+
+OK. But when we're creating our die right here on Line 15, we now need to say how many what you want,
+
+the default value to be and all that make it one here.
+
+And how many sides do you want? The die to be will make it 100.
+
+OK. So does anyone see the problem?
+
+It's not a problem where this when we create this new dye work, we're saying that it requires three things stealth value inside.
+
+But you start me. Just add to right here the value and the number of sites.
+
+Now I want you to know that this is implied where we don't we don't specify self here on Line 15.
+
+You don't do that won't work if it's just a weird thing in the language that's going to screw with your mind.
+
+So when I run this now, I'm going to create a dye that's going to have a default value of one and 100 sides.
+
+So check this out. Here we go. We actually I want to cut this number down just so you know, from one hundred to five.
+
+Let's go back to five. I'm going to create a bag of five dye that are going to be default value of one and have 100 sides.
+
+So here I go. There they are five, seventy five, eighty four, eighty two,
+
+eight and seventy six and now when when Nathan says no, we need to make a run now of 100000 sided die.
+
+Cool. There they are. They are there different die coming out?
+
+Why are there six numbers? One is the length that's coming out, right, right here.
+
+Oh, OK. Yeah. So let me get rid of that. So you can see.
+
+So now I'm creating a bag of five dye that are 100000 sides.
+
+And I did not hard code into my into my class anything any hard, hard numbers like one or four or five when I create this dye right here.
+
+I'm passing in. The default value I want it to be and the number of sides I want that die to be.
+
+OK. We're at the end of the quarter, you have to imagine that the content gets a little bit more tricky, right?
+
+And this is, you know, it's not easy stuff to comprehend.
+
+So I think we'll do some, some some more examples instead of die.
+
+Maybe we'll do stuff with cars or animals or players or just about anything, any physical object that exists we can represent as a class.
+
+Okay. Thank.
+
+So again. We didn't create separate Barrack that values for the five type of variables for each die.
+
+We just had one variable, which happened to be a list and a list can contain multiple things inside,
+
+and each one of those things happened to be a dye object.
+
+That dye object had a value and it knows how many sides it has, and each dye can do something.
+
+By being able to roll itself, by being able to roll it and again when we do the animal classes in a second,
+
+you'll start to see this take shape a little bit a little bit more.
+
+Okay. When I first learned object oriented programing, which you're learning here it was, it was really hard.
+
+It wasn't until I really started teaching it that it started making more sense.
+
+Takes a while, takes a lot to wrap your head around. OK, let's do.
+
+Let's do some more. Let's start from the very beginning. There we go.
+
+Should we do cars or animals? Anybody cars or animals or something else?
+
+Anyone have any? What about involves animals?
+
+All right. We'll do animals. All right. So what does crate demo Dash five Pi?
+
+Animals. OK, here we go. Just like animals, we sing that song.
+
+I don't know. Just another five. Yeah, Maroon five.
+
+Thank you, Colin. All right. So let's create. Let's do dogs.
+
+Let's do dogs. Let's create a dog class. We're going to manufacture.
+
+Digital dogs, digital dogs.
+
+OK, so there is a good name for our class, remember that the first letter of our class name gets capitalized circle rectangle, polygon, right?
+
+All graph, win all capital. Those are classes. And now let's create our constructor function when we create a new dog.
+
+Right? Define Dunder init. Dunder.
+
+Self. Okay, so by default, when we construct a new dog, we're just going to do that, but.
+
+What are some properties that we should have for our dogs?
+
+I hear list of actually not all software list, but.
+
+Property properties, list of properties of dogs.
+
+So tell me what are some things? If we're like manufacturing dogs, right?
+
+What are some things, what are some properties dogs have? What are some properties?
+
+Dogs have somebody. OK, breed, keep going.
+
+Gender. Gender and what else keep going.
+
+Color, color, size. OK, good, small, medium, large, yeah.
+
+Keep going. What else?
+
+It's not a trick question, just saying go look name.
+
+All right, cool. What about wait, wait.
+
+How about legs? Kyle.
+
+What else? Watch your ears.
+
+Yeah, they all have different irritants, but let's let's just for now focus on breed, gender, color, size, name.
+
+We'll get rid of all this stuff. We'll just focus on these five properties from now.
+
+All right. List. Of methods.
+
+That dogs can do so. Tell me some things dogs can do.
+
+What are some things? That dogs can do. They can bark, they can bark.
+
+They can run, they can run, they can jump, they can eat, they can jump.
+
+Then they can go potty right there. Fair list of things that our dogs and our.
+
+Code that we're going to right here can do. Yeah.
+
+Yes, Chris. All right. So what we want to do now is we want to when we construct a new dog, right?
+
+We want to be able to give it a breed. A gender.
+
+A color a size. Name.
+
+OK. So when we create a new dog in our software code.
+
+We're going to want to give it a brief gender, color, size and a name.
+
+Can you? Makes sense so far when we create a new doc, so self.
+
+Hey, dog, I want your breed to be whatever value we gave you to construct yourself.
+
+Hey, well, hey, I want your color to be whatever color we told you to be.
+
+And then I moved the Zoom window here. I want your.
+
+Sized to be whatever size I told you to be. And I want your name to be whatever name I told you to be.
+
+OK, so let's cut it off first dog, OK?
+
+I think his name a reserved word in Python. Maybe so give me.
+
+Let me credit me in here. Ben to mean.
+
+Does anyone have a dog that anyone have a dog?
+
+I have a dog. His name is lucky and he's kind of our team right now.
+
+All right. So I created a book called Lucky. There it is.
+
+Lucky the dog and we're going to make lucky a dog.
+
+And now we need to give our software the breed.
+
+So the breed is going to be a string, right? The breed is going to be a string.
+
+So. Lindsay, what kind of dog is lucky?
+
+Lucky is a black lab slash border collie, black lab slash border.
+
+Colony. OK, now the next thing is gender.
+
+What's the gender of the dog, male male and what is the color of your dog lacked?
+
+OK. What is the size? Is it a large dog? It's a medium.
+
+All right. Medium. And what is? Oh, it's lucky.
+
+There it is. Right? All right. So now just by doing this code right here, I've created Lindsay's dog in software, right?
+
+There it is. I have created Lindsay's dog in software.
+
+In fact, if I say print out what kind of dog is lucky, I'll say breed just like that, it's going to come back and tell me that Lindsay's dog.
+
+Is an error, OK, has no attribute name. I knew a new name was going to give me an issue.
+
+Hold on one second. Lucky dot, lucky dot name.
+
+OK, hold on. You're Reid. Gender, yes, thank you.
+
+So that gender. And let's see if that fixes it, Robert.
+
+Name name has given me. So let me just go right here.
+
+So don't name names, I think name may be a reserved word.
+
+Let's just call it. What's another word for name?
+
+What's another variable for name that I could use, I don't. OK, very formal now.
+
+OK, so I'm just going to change name to title. Let's see if it works now.
+
+Go. Sized up, my fault means you didn't switch the name or the title.
+
+One with code, let's just check my code self read.
+
+So I have one two three four five one two three four five.
+
+Right there there's that one two three four five.
+
+Lucky that breed. It should be working, it's working on mine.
+
+Yeah. Hold on a second. Let me just run this again.
+
+Yeah, hold on. What love to see what's going on here?
+
+Oh, wait, wait, wait, wait, wait. Signs that oh, look, look, look, see.
+
+Self thought title self, that title name probably wouldn't work.
+
+That was my goof ready. So there it is. There is Lindsay's dog and there is it's breed, right?
+
+So in software, we have a variable called Lucki.
+
+That's an object. And that object knows a whole bunch of things about itself.
+
+It knows its breed, its gender, its color, its size and its title.
+
+Right. Just like that. And if I create, I'll create my dog.
+
+Dr. If a dog is a he's black and white model, actually, he is a English springer spaniel who is barking in the hallway right now.
+
+English Springer Spaniel. And then he is a male dog.
+
+He is color, he's black and white and he is thighs medium.
+
+And his name is Tucker.
+
+Okay, so I created right from this bunch of code here to objects that happen to be dogs that have one, two, three, four or five properties.
+
+We have no methods. These dogs can't do anything right now.
+
+And by the way, if I print out Tucker as they breed right, I can then see that Tucker is an English springer spaniel.
+
+So I don't know about you, but everything, you know, kind of what we've learned in this class, right,
+
+this this like totally changes the game because unlike anything else, we are creating a template.
+
+Kind of like the graphics library, where we're able to define an object, right, which has.
+
+Instance variables. These are instance variables, by the way, let me just put this here.
+
+Instance, variables, that means for this instance of lucky and or Tucker, here are these values and each one is different.
+
+But we made Lindsey's dog and my dog right in the software through this same template.
+
+Okay. Should we take a break, by the way?
+
+Should we take a break? 11 plus 11 plus 12 plus 10 is 22, so I'll stop the recorder.
+
+What's? I'll stop the recorder I wanted to do right.
+
+So, OK, so data, it's totally a natural thing to find coding difficult.
+
+OK. That's good to know, because some people will make it look like it's easy.
+
+And I probably taught maybe two thousand students over nine years, maybe not,
+
+I don't one hundred and four, ninety five percent of those students, this stuff is very difficult.
+
+But Joshua just know that a lot of the students that I do keep in touch with.
+
+I have done really well, and they had this is their first programing course, so it takes time.
+
+Right? Think about just think about high school, right?
+
+And how many years we're taught like English, write English as a language, right?
+
+It has syntax. It has semantics, just like all this stuff.
+
+Right. And here we are nine weeks later with a new language.
+
+And, you know, give yourself some credit for what you know already.
+
+You may still not be as good as you.
+
+One day will be at it, but I was I was that same person as Joshua, so and I still have a ton to learn.
+
+So here we go. So there are two dogs and it says recording yes.
+
+Does it say recording somewhere? Yup. All right.
+
+I need to take my glasses off because my eyes lately are just I don't.
+
+I don't. It's new glasses. I don't know if it's out or I don't know.
+
+So here we go. We got two dogs. Yay.
+
+Yay, we got two dogs. And right now, our dogs are kind of boring, right?
+
+All right. One more dog. Let me create one more dog. I'll create Bella.
+
+She was a dog of ours. She's no longer here. She was an English springer spaniel.
+
+She was female. Notice how the type.
+
+You notice how this is changing. See this right here. How it's highlighting what I need to do next.
+
+She was tricolor. I'll just leave that to three colors.
+
+She was a medium dog and her name was Bella.
+
+Bella Luna, beautiful moment. And if I print out, like, print out Bella's value of, I don't know, gender, it's going to print out female, right?
+
+So if I run this code, we got Lindsay's dog, our dog, and we have Bella, who is a female.
+
+Right? So I have these three objects in my code that have these five properties, but they can't do anything right now.
+
+Our dogs are unable to do anything. OK.
+
+And also what I'm going to teach you is that you see how I'm accessing these property names like this breed, breed, gender.
+
+I'm going to show you a better way to do this because this is but there's just always a better, more professional way to do things.
+
+But again, think about this.
+
+This is the first time in this class where we've created a template and we've made stuff just like from the graphics library.
+
+We've we've we've used that template to craft to create Locky, Tucker and Bella in software.
+
+OK, so let's go back. We need our dogs to be able to bark, right?
+
+So what we need to do is define, define a new method.
+
+Right in our class that all dogs can do our template,
+
+that when we make all dogs and we're going to define a new method, lowercase bark just like that.
+
+And we need to tell that particular dog itself to bark.
+
+That's why I put self in there. And then I'm going to say print.
+
+Woof, woof. Just like that, because that's how it Dogwood border, right?
+
+We print out the words. Woof, woof. Right. So I could tell any of my dogs now.
+
+To Bach. So let's take lucky and say, hey, lucky.
+
+Bach, just like that. It's a method. We do the parentheses.
+
+We don't give it. The self here just needs to be here, but we don't put it here.
+
+And now when I run this. We've seen the same information and then we see Lindsay's dog walking.
+
+And we could do the same for Tucker. And we could do the same for Bella.
+
+Right, all these dogs are made from the same template, they can all do the same thing.
+
+Now wouldn't it be nice? Instead of just Wolf Wolf, we knew which dog was barking, right?
+
+So could I just say, could I just do this? Could I say, I'm going to use that string here because I'm being lazy?
+
+And could I say, Hey, self, what's your title? Is your name?
+
+Just like that. And now when I run it, it says Lucky Wolf.
+
+Wolf Tucker. Wolf Wolf. Bella Luna Wolf with.
+
+So I'm telling each one of those objects, what's your name?
+
+What's your title? And then I'm putting out the words with. Or I could just do this.
+
+Right, Bella Part Tucker barked, Lucky [INAUDIBLE].
+
+So watch us. Lucky Tucker Park, Bella Luna Park, OK, I guess I was getting ahead of myself, I use the quotation marks.
+
+What do you mean, Joshua? Like I try to like in the parentheses versus lucky breed?
+
+I actually got lucky title collar quotation is a comma and then another quotation that says lucky breeds,
+
+so they print out like lucky is the Black Lab colleague or.
+
+Well, let's talk about that, right? So here we created our our three dogs.
+
+We gave them a breed, gender, color, size and title.
+
+Right. And there they are.
+
+They all have this. Those five properties and all of them can bark, right?
+
+All of them can bark, right? So let's do this again now and let's create.
+
+We did bark. Let's do run. Let's create another method. Called Run, and we're going to tell you the dog, too.
+
+And I'm just going to this copy this. What's?
+
+So I'm just adding additional methods for each of those objects.
+
+And now I can instead of Barak, I can say, Hey, hey, Tucker.
+
+Park. Just like that. I meant run.
+
+Sorry. Hey, Tucker. Run. Just like that again, these are all method bark run.
+
+They're different things, and you can see here we're getting Tucker to run.
+
+We're getting Tucker to run if I want to get if I want to get lucky to run her lucky run.
+
+All three dogs made from the same template, the same class, all have five instance variables, five properties.
+
+Right now they have two methods. They can bark and they can run and we can do the same thing with each jump and potty.
+
+So if I say if I create a new method called potty. Kind of put that self in there, and I put in that.
+
+Is going to stay. Just like that now when I want a particular dog to go potty, I'll say, Hey, Bella, go potty.
+
+Now. Gerri, what do you think of this stuff?
+
+It's pretty cool. It's a lot.
+
+It is a lot, and it's it's the sheer fact that again, we're not creating function functions like do a bunch of code and then they're done.
+
+Maybe they print something out. Maybe they send something back, but they forget everything they know.
+
+And when we create objects, these objects live on right from this stuff that we created them with.
+
+Right? They know their breed. They know all these properties.
+
+They know they can bark, they know they can run, they know they can go potty.
+
+And just like we did with the dye, let's say I want to create a pack of dogs, right?
+
+I no longer want to create variables for each of my dogs because that's kind of not a we wouldn't do
+
+that in in a professional environment because we would have to create variables for each of the dogs.
+
+But what if we want to model what we did with the bag of dice, right?
+
+The bag of dice and create a pack of dogs? Right. So I'm going to copy all this code and not mess this up.
+
+Copy all that code. Go in, create a new program and paste it in.
+
+Save it. I'm going to call this demo Dash six that way.
+
+And instead of creating right, I'm just going to clean all this up instead of creating these variables here.
+
+Right? What I'm going to do right is I am going to not just do this, I'm going to get rid of it all.
+
+I'm going to create a list pack of dogs. There they are.
+
+Pack of dogs. It's an empty list. But my job now is to be able to create like 100.
+
+Dogs, right? I'm going to make the same dog for now, just for my example.
+
+And then we're going to have them all go potty at the same time. OK, so how do I do that right?
+
+For I in range of 100 creating a pack, 100 dogs.
+
+Saying, Hey, pack of dogs, a pen to yourself, a new dog, and the dog is going to be a.
+
+We're going to do poodles, OK? A poodle. The gender is going to be will make them all male.
+
+We'll make the color, they're all white.
+
+Will make the size all small, and we'll just call them instead of a name, we'll just call them a poodle just for now.
+
+OK, so there is my pack of dogs. I just created.
+
+Let me run it just to make sure it doesn't throw up. All right, good.
+
+So in software, I've created a bunch of 100 dogs.
+
+They're living in this pack of dogs. They're all in there. So how do I get them all to go potty, right?
+
+I don't get them all to go potty. Well, I can say for every lowercase dog or four, I doesn't matter.
+
+For dog in pack of dogs, for every pack of dogs is a list we can iterate through lists.
+
+One list element at a time, Jerry. And then we can say, Hey dog, go potty.
+
+Just like that. So I'm going back, I created 100 dogs.
+
+And now I'm telling all those dogs to go potty. So let's do it.
+
+Now they are they're all going potty at the same time.
+
+Just by right, rating 100 of them and sticking each dog in a list and you know what a better name instead of a poodle.
+
+Let's just call the name of the dog a number.
+
+So I'm going to take I, which is the iterator zero, one, two, three or four.
+
+And I'm going to make it into a string and we're going to call our dog a number.
+
+Your dog zero, your dog one. That's that's your title.
+
+And now. Please hold a.
+
+So now you can see each of the dogs, dogs zero is going potty, one five all the way up through.
+
+Don, ninety nine zero to ninety nine is 100, so now I have a pack of dogs made in software.
+
+They're all the same, right? We're just being generic now.
+
+But how about them apples? How about them apples?
+
+Then think about games. Think about games and how we may create a player class.
+
+And some of you saw the video that I shared with you all about what we're going to do on Wednesday is create a player class to.
+
+To to do what kind of work we're doing here, but with gameplay.
+
+Right. All your games have when you like. I didn't know nothing about games, right?
+
+But you know you, you have maybe a name, you have armor, you have weapons, you have,
+
+you know how you have all these different things and that's what kind of what we're doing here.
+
+We're creating the template, the class for each doc or for each player or for each dot.
+
+Yeah, it lends that question.
+
+So lately I've been playing in like Sonic Forces, like on my computer, and I just realized something then this like code like,
+
+how do you think they make different classes for each character's skills?
+
+Like, how do they do that? So we're going to be doing that on Wednesday.
+
+So just like because like a Ali, sorry, Ali.
+
+No, no, no, no. You're cool. My eyes were just bugging me when we think about a list, right?
+
+Your player has a list of skills or a list of weapons or a list of things that it can do.
+
+And when we when we talk on Wednesday and when we develop a game,
+
+one of the things that a player is going to have is a list of weapons, a list of skills and things like that.
+
+All right, so. OK. Yeah. Yeah, good question.
+
+Thanks. Let's do it just right. The out of this like on this play, this kind of looks like a game mechanic from a game I've been playing recently.
+
+Yeah. Well, the whole point of this is this to show you just that.
+
+If you can only write simple code like we've written all quarter long before,
+
+you're going to have the need to do stuff like this, I didn't create variables for each dog.
+
+They're not there. They are an element in a list or a pack of dogs, and they're all sitting in this list, all next to each other.
+
+They don't fight, but there they are there.
+
+If I change this to, you know. 100000 dogs.
+
+Not that I want to have 100000 dogs go potty and print that out all at one time, right?
+
+But there I go. I commit 100000 dogs or if I want like 10 dogs, there they go.
+
+Right, there they go. Right? There they go, there are the 10 dogs 039 all going potty now.
+
+The one thing I wanted to tell you kind of going back to what we had before and then we'll probably cut cut this on.
+
+For today, because this is complex stuff, is I told you that it's not cool to say like dog got gender right or dog scholar.
+
+It's better to create methods and this is on a quiz.
+
+These are called getters and setters, accessories and beauty towards right getters and setters, not dogs, not Irish setters.
+
+But here, let me take this out, getters. Sweaters or accessories mutate towards that's that the computer science name,
+
+where these getters and setters are going to be a way for us to get the dog's breed.
+
+But right now, we don't have a really good way of doing that or changing the dog's name, right?
+
+Or something about that dog. We could say Dog, don't breed and change the dog's breed.
+
+But you don't ever really want to do that. What you want to do is create waves in your code, in your class to gracefully change things.
+
+You don't want to access these property names directly. It's a really bad habit.
+
+So let's go in here and say define a new getter called get on the score breed self.
+
+Return self-taught breed. Now that's kind of weird, right?
+
+We're saying we created a method called Get Breed that we can call and we're saying, Hey, dog, look at yourself.
+
+What kind of dog are you? And then it's going to say it's going to send back.
+
+To me, the brief, this is the way that you should get information about your objects.
+
+So now I can say right, instead of going potty, I can say dog dot.
+
+Get on the score, breathe just like that.
+
+Not not this, not dog, don't.
+
+Dogs don't do that, don't do that bad. But look at I created a nice, elegant, programmatic way to get me the breed of a dog.
+
+And now when I run this code? I get an error, right?
+
+So what a team here, it's saying, oh, so it gave me that dog breed, but I didn't do anything with it.
+
+Could I could I do this? Could I say print out?
+
+Whatever got returned to me, that was my fault before, could I print it out and could I say, Yeah, they're all tools?
+
+That's the way that you would do things. And I could do the same thing, create another.
+
+Get her, get her, get the color.
+
+Hey, dog, look at yourself. Return to whoever asked you what color you are.
+
+And. Print out, Hey, dog, get your color.
+
+Get your. Color just like that.
+
+Getters and setters, these are accessories, accessories, we're accessing information,
+
+we're accessing information about an object, about a dog, and we're saying, Hey dog, which a breed?
+
+Look at yourself. Send back to me what you are and when I run it.
+
+You can see here. Right, poodle, white, this is the color, and this is the professional way of returning information.
+
+We never want to do this. That's bad. OK, that's bad.
+
+That's a bad thing to do. And you saw me do it probably in some of the videos about the dye or the player class or something,
+
+because I've learned so I've learned since I've made that video that it's better to do things and more pro right?
+
+Best practice to do things like I'm doing here now. These are all good.
+
+These are getters. This gets me information about a dog.
+
+But what if I want to change the dog's name? Let's say we adopt the dog and the dog.
+
+His name changes. So we need a way to mutate, to change, right?
+
+To set the dog's name. And again.
+
+This is the way to do it. We define a new method and we call it set getters and setters get ers and setters, not dogs, that will call it title.
+
+We'll say, hey, self, it's time that you change your name.
+
+Whatever new name I gave you. But when I changed the dog's name, I need to give it the the new title I need to like say, Hey, your new title is this?
+
+And then you need to set yourself to it. So let's take.
+
+Let's take all of the dogs and change their titles and their titles to begin with where the number zero three ninety nine?
+
+Right? So how can I now go in?
+
+I'm just going to come of these out for now. How could I go in and say, Hey, dog, hey, hey dog, set your title right?
+
+There it is. Set. Title. But I need to give you a new right, a new number because we adopted or we adopted, you know, a hundred dogs.
+
+So I'm going to say, Hey dog, take your, Oh, this is interesting.
+
+How do I get the dogs? How do I get the dog's current title right now?
+
+How do I get? Do I have a method where I can get their title?
+
+Or do I need to create one to get their title? I need to create another method get the title of the dog.
+
+That's the name and send it back. There we go.
+
+These are this is the proper way to do things. So I have one dog.
+
+Class. I construct the dog. I can tell the dog to park.
+
+I can tell the dog to run. I could tell the dog to go potty if I need to get the dog breed.
+
+I have a getter or a word access or method to do that.
+
+I have a way to get the dog's color away, to get the dog's title and a way to set the dog's title.
+
+And now down here we're saying, Hey, take your current title, your name.
+
+Let's just do this. So I need to say, Hey, dog, what's your current title?
+
+And I'm just going to add to that the string.
+
+Just just give me a second here. Adopted. Just that.
+
+Just that right there, I'm going to say, Hey, dog,
+
+set your title to get your current title and add to yourself the word adopted and then go to yourself and that's your new name.
+
+And then right after I do that, I can say, Hey, dog. Get your title.
+
+We have a method to get a dog's title. We do right here and I'm going to print it out.
+
+And now we can see all of our dogs adopted. Hopefully.
+
+Yeah. All right. See that. Get title not defined.
+
+See, I make errors. So what I need to do here is say, Hey dog, get your title.
+
+Hey, don't get your title. And now when I run this, they're all going to be adopted.
+
+See that all 10 dogs got named, renamed from zero one two three four five.
+
+They've all been had their names change to their old name zero plus the word adopted.
+
+Now, I don't know about you, this is some hairy stuff.
+
+This is, you know, we went from writing simple programs to creating object oriented code, and I'm just trying to leave it all there.
+
+And don't worry, I'll give you all the code. And it's a little mind boggling and it's a little overwhelming.
+
+And I'm not going to overwhelm you with another half hour of what we've done today.
+
+We'll do more of it on Wednesday. So thoughts on classes, I need some feedback.
+
+I mean, I would appreciate some feedback. I think this is very interesting.
+
+OK. It is somebody else. Could I do?
+
+Can I do one more 10 minute example on the cars for today?
+
+Is that is that OK? Just to help you out a little bit more? That's fine with me.
+
+I'm good with that. All right. Let's just do that. All right. Sorry for that.
+
+I have to go get my flu shot. All right, here we go.
+
+To demo is this Demo six picked up on a demo.
+
+Seven that fine. All right. All right, here we go.
+
+Ready. Here we go. We're going to create a class to represent cars and cars ready so class.
+
+Car, there it is, class car, no parentheses. Now we need to create our constructor.
+
+Dunder Anek Dunder Self will fill in the rest in a minute.
+
+We define our main. And now let's get going.
+
+So when we construct the car, what are some of the things that the properties that cars have?
+
+Make. Model.
+
+What else, what? What else other color you're?
+
+Let's go with that. Just for now. There we go.
+
+So now we need to take these parameters right, these properties and put them up here.
+
+Make. Model. Color. Yeah.
+
+So when we construct the new car, there we go. OK, so let's create a new car.
+
+Let's just go back to the way we've been doing it. Here we go. Let's create and we have a car.
+
+Give me a car. Just belt one out. What about us over 2010, can we?
+
+All right. So let's Korea, is that your car? All right.
+
+So let's create. Lynn Lindsay's car variable, there it is, Lindsay's car, and we're going to create a new car and we're going to say hi to.
+
+Camry. What color is it, Lindsey Silver, Silver and what year 2010, right?
+
+Yeah. All right. So I could create the year as a number right, just like that doesn't have to be a strength, right?
+
+And. There's Lindsay's car, there's Lindsay's car, right?
+
+So there it is, right? But I taught you in the last lesson that I need to create some accessories for getters to be able to properly,
+
+professionally get info about each and every car that we create.
+
+So could I define a new method, a new accessory or a new getter that says get?
+
+Underscore make. And I'll say, hey.
+
+Send back whatever your make is, and could I do the same for model color in the air?
+
+Let me do this, by the way. This is just like one of the programing assignment problems.
+
+Although. One more and I'll fix everything.
+
+So we got we got we got make. We got model and model.
+
+They turn the model. Give me back the model.
+
+We got the color. We got the color.
+
+We got the color, and then we got the year, we got the year.
+
+So this is cool because now we have things built into our code that can look at any car we present itself and say, Hey, what's your model?
+
+What's your color? What's your year? And we're not. We're not doing what I showed you earlier.
+
+We're not doing this. We're not saying, Hey, Lindsay's car. Hey, Lindsay's car in the car?
+
+We're not saying that anymore. OK, that's that's bad because we want.
+
+We want to be able to not just say, hey, what property, what, what color are you?
+
+We want programmatic ways to be told what the color is.
+
+OK? Just it's it's a little bit more than I want to share with you.
+
+But this this this works well. It can be really dangerous.
+
+So what I do now, as I say, Hey, Lindsay's car get.
+
+Was it color? Is that the one, the color? What did they have before I had color?
+
+Yeah. So I said, call the method, get color and tell me what color Lindsay's car is.
+
+And it's silver. Right? And now I can say, print out, Hey, Lindsay's car, get your year.
+
+What year are you? Get year? And it should say.
+
+2010. There it is. And now when I create another object, I'll just do another one.
+
+OK. Gales are.
+
+Car. Alexis, what is it?
+
+Model three left the color black, yeah.
+
+Twenty sixteen. Right. And now I could do the same thing.
+
+Ford girls car, which is just another object, and I'll do it right here.
+
+I'll say, hey, what is Gail's? Car color and what is.
+
+Gail. Car year and.
+
+Black 2016. So to wrap it up, we create a model, not not car model, but a way in software template.
+
+Right. A class that describes when we create a new car, what properties it should have.
+
+And then we create a list of methods right for that particular object car class.
+
+That can like do things get the model, get the get the mate, get the model, get the color, get the year.
+
+In fact, we can add a new one that says maybe got a paint job, maybe the car got painted that color.
+
+Upset caller, this last thing, by the way, and then we'll say, hey, hey, self, say your color to that new color that we're going to tell you to.
+
+So I need to go here now and say, Hey. That's a new color.
+
+And now I'm going to change Gail color of her car right after here, I'm going to say, check this out.
+
+I'm going to say Gail's car. That sent color.
+
+And we're going to make it purple. All right.
+
+And then we're going to print out Gail's car color after we change it, we'll just do it down here and you'll see that.
+
+We're going to be changing our color. It was black, and now it's purple.
+
+I see all the smoke coming from all over your heads right now because this stuff is.
+
+But then this is like if you're taking JavaScript, if you're taking HP, we're going to be using this concept over and over and over again.
+
+A web page is actually an object. If you think about it.
+
+It's this collection of HTML elements.
+
+Some of them will have classes. I ds will have content between tags and everything in JavaScript isn't object in on the web page,
+
+and we'll be using stuff like this to go get information about a paragraph.
+
+Text about an image, so bear some context for you all the time at the tone is eleven, fifty nine and 17 seconds to.
+
+Parting thoughts, questions, concerns. And look, and looking at you all.
+
+That was not a single question in chat today. That does means everybody is toast.
+
+So I know I know for a fact that kids watch our show.
+
+I think I'm the only one to ask the question today.
+
+There's something now, Jack Jerry says crickets.
+
+Yeah, you know, remote zone. Tough stuff, man. Totally different in a physical classroom, right?
+
+We'd be eating pizza right now. So tough concept.
+
+It took me a long time to understand getting back to what Joshua mentioned before,
+
+and it's very normal for new programmers like yourselves right to do things the way we used to do.
+
+But once you understand how to represent. Something with.
+
+Instance variables. With methods, right, getters and setters accesses accessories and mutates.
+
+It your life as a software person can become you can step up your game a lot.
+
+So one more thing in the chat, Lindsey gives a smile. OK.
+
+So on Wednesday, we'll do a little bit more and then we'll I've created a game, a simple game using players that have different weapons,
+
+and those weapons have different weights like a sword versus a bow versus a hammer.
+
+They have all different weights.
+
+So how can we write a game with, I don't know, a thousand players randomly battling one another, pulling out their weapons, having a battle.
+
+One of them was going to die, and then how do we eventually get down to one player left?
+
+Sounds like a big while, Luke, to me, sounds like a list of player objects and sounds like some decision logic.
+
+And it sounds like some fun. So. I'm going to turn off the recorder.
+
+Oh, by the way, there is a you should see in canvas now and something in Module nine to be able to leave feedback for for me in this course.
+
+It's something that they do to me every quarter and I must say do to me, but I'm on this.
+
+I'm on this practice. This thing at school where it's called tenure track, where they teach you how to teach right.
+
+And that feedback gets seen by it gets seen by me like way after the course is over,
+
+just so you know, it'll have no reflection on your grade will be, Oh Jerry, give me bad feedback.
+
+But it's a way to to give the college information about me. The course the good, bad and ugly.
+
+And a lot of you have done this before and you've done it for other instructors.
+
+So it's not it's not required, but I highly encourage you to do it so.
+
+When I loaded into Kansas today. Well, this might be odd, but it said I had a we acquired a weevil here,
+
+weevil to do on you and then my English teacher, it was required and then I couldn't get out of it.
+
+Oh, really? Oh, God, my belly button that said do later.
+
+It did give me that button like so quickly before class with me almost late.
+
+Oh all right. Well, I'll let. I'll let the people that handle that, I'll let them know.
+
+But again, it's not required, but it's very, very helpful and I get to go over them.
+
+They're all anonymous, and I'm really thankful for any type of feedback which you already know.
+
+So with that, I'm not going to give me any more. I'm going to shut up and have a good day and I'll see on Wednesday.
+
+You'll also have a good day to you and.
+
